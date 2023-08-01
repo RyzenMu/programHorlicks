@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Delegate Target in jquery</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div style="width: 200px; height: 200px; background-color: rgb(177, 20, 222);">
+        <input type="button" value="change color">
+
+
+    </div>
+    <script>
+        $(document).ready(function(){
+            $('div').on("click", "input", function(event){
+                $(event.delegateTarget).css("background-color", "rgb(11, 200, 155)");
+            });
+        });
+    </script>
+    
+</body>
+</html>

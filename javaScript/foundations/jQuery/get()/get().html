@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>get() method in jQuery</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <p>This is My First P Element</p>
+    <p>This is My Second P Element</p>
+    <button>Click</button>
+    <div></div>
+    <script>
+        $.noConflict();
+        jQuery(document).ready(function($){
+            $("button").click(function(){
+                let x = $("p").get(1);  
+                $("div").text(x.nodeName + " " +x.innerHTML);           
+            })
+        })
+    </script>
+    
+</body>
+</html>

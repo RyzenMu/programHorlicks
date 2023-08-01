@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overflow in css</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div style="height: 250px;width: 150px;border: black dotted 3px; overflow: scroll;">
+        <p>This is a paragraph</p>
+        <p>This is a paragraph</p>
+        <p>This is a paragraph</p>
+        <p>This is a paragraph</p>
+        <p>This is a paragraph</p>
+        <p>This is a paragraph</p>
+        <p>This is a paragraph</p>
+        <p>This is a paragraph</p>
+        <p>This is a paragraph</p>
+        <p>This is a paragraph</p>
+        <p>This is a paragraph</p>
+        <p>This is a paragraph</p>
+        <p>This is a paragraph</p>
+        <p>This is a paragraph</p>
+        <p>This is a paragraph</p>
+        <p>This is a paragraph</p>
+        <p>This is a paragraph</p>
+        <p>This is a paragraph</p>
+        <p>This is a paragraph</p>
+        <p>This is a paragraph</p>
+        <p>This is a paragraph</p>
+        <p>This is a paragraph</p>
+        <p>This is a paragraph</p>
+        <p>This is a paragraph</p>
+        <p>This is a paragraph</p>
+        <p>This is a paragraph</p>
+        <p>This is a paragraph</p>
+        <p>This is a paragraph</p>
+        <p>This is a paragraph</p>
+        <p>This is a paragraph</p>
+
+
+    </div>
+    <h1><span> 0 </span> times scrolled</h1>
+    <script>
+        $(document).ready(function(){
+            let x = 0;
+            $('div').scroll(function (){
+                $('span').text(x+=1);
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empty in Jquery</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <button class="btn">Click here to empty</button>
+    <div style="height: 250px; width: 250px; background-color: chocolate;">
+        this is div tag
+        <h1>This is h</h1>
+        <button >Click Here</button>
+        option 1<input type="checkbox" name="check1" id="">
+        option 2<input type="checkbox" name="check1" id="">
+    </div>
+    <script>
+        $(document).ready(function(){
+            $('.btn').click(function(){
+                $('div').empty();
+            })
+        })
+    </script>
+    
+</body>
+</html>

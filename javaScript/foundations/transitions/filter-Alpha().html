@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter / Alpha </title>
+</head>
+<body onload="pulsateButton()">
+    <input type="button" value="Button" id="MYBUTTON">
+    <br>
+    <!-- A Visual Filter for controlling Transparency -->
+    <script>
+        let theOpacity = 0;
+        let theIncreament = 1;
+        function pulsateButton(){
+            theOpacity += theIncreament;
+
+            myFilter = "Alpha(opacity = "+theOpacity+")";
+            document.all.MYBUTTON.style.filter = myFilter;
+            document.querySelector('button').style.filter = myFilter;
+            if ((theOpacity % 100) == 0){
+                theIncreament *= -1;
+
+            }
+            setTimeout("pulsateButton()", 5 );
+        }
+    </script>
+</body>
+</html>

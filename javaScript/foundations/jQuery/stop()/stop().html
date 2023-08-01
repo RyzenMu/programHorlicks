@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop in jquery</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <style>
+        #flip, #panel {
+            border: 2px solid firebrick;
+            padding: 2px;
+            background-color: khaki;
+            }
+        #panel {
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div id="flip">click to slideToggle</div>
+    <div id="panel">Div Tag</div>
+    <button>Stop</button>
+    
+    <script>
+        $(document).ready(function(){
+            $('#flip').click(function(){
+                $('#panel').slideToggle(20000);
+            });
+            $('button').click(function(){
+                $('#panel').stop();
+            });
+        });
+    </script>
+</body>
+</html>

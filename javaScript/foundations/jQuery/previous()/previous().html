@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prevoius() in Jquery</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div>
+        <h1 id="h1">Heading Tag 1</h1>
+        <p id="p1">Paragraph tag 1</p>
+        <h1 id="h2">Heading Tag 2</h1>
+        <p id="p2">Paragraph tag 2</p>
+        <h1 id="h3">Heading Tag 3</h1>
+        <p id="p3">Paragraph tag 3</p>
+    </div>
+    <button>Click Me</button>
+    <script>
+        $(document).ready(function(){
+            $('button').click(function(){
+                $('#p3').prev().css("background-color", "pink");
+                $('#h3').prevUntil('#h2').css("background-color", "cyan");
+                $('#p2').prevAll().css("background-color", "gold");
+
+
+            });
+        });
+    </script>
+    
+</body>
+</html>

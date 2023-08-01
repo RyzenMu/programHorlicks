@@ -1,0 +1,27 @@
+
+.numbers {
+    font-size: 50px;
+    font-family: sans-serif;
+    padding: 50px;
+    display: inline-block;
+}
+
+button {
+    padding: 20px;
+}
+
+input {
+    width: 185px;
+    height: 100px;
+}
+
+.numbers div {
+    border: 2px solid black;
+}
+
+
+
+
+
+
+

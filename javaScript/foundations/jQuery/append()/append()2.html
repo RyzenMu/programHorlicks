@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Append 2 example</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <button onclick="fun();">Click Me</button>
+    <p>This is a sample para1</p>
+    <script>
+        function fun(){
+            let text2 = "<p>this is sample para 2</p>";
+            let text3 = $("<p></p>").text("This is sample text 3");
+            let text4 = document.createElement("p");
+            text4.innerHTML = "This is sample text 4";
+            $('body').append(text2, text3, text4);
+        }
+
+    </script>
+    
+</body>
+</html>

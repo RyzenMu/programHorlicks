@@ -1,0 +1,470 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "labelIntro",
+            "request": "launch",
+            "mainClass": "labelIntro",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "resource",
+            "request": "launch",
+            "mainClass": "resource",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "introJFrame",
+            "request": "launch",
+            "mainClass": "introJFrame",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "intro",
+            "request": "launch",
+            "mainClass": "intro",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "hello",
+            "request": "launch",
+            "mainClass": "hello",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "example2",
+            "request": "launch",
+            "mainClass": "example2",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "example1",
+            "request": "launch",
+            "mainClass": "example1",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "example1",
+            "request": "launch",
+            "mainClass": "java.foundations.mathematicalFunctions.example1",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "genericsClass",
+            "request": "launch",
+            "mainClass": "genericsClass",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "generics",
+            "request": "launch",
+            "mainClass": "generics",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "typeConversion1",
+            "request": "launch",
+            "mainClass": "typeConversion1",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "typeConversion",
+            "request": "launch",
+            "mainClass": "typeConversion",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "instaneOfOperator",
+            "request": "launch",
+            "mainClass": "instaneOfOperator",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "conditionalOperator",
+            "request": "launch",
+            "mainClass": "conditionalOperator",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "incrementDecrementOperators",
+            "request": "launch",
+            "mainClass": "incrementDecrementOperators",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "logicalOperators",
+            "request": "launch",
+            "mainClass": "logicalOperators",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "relationalOperators",
+            "request": "launch",
+            "mainClass": "relationalOperators",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "realArithmetic",
+            "request": "launch",
+            "mainClass": "realArithmetic",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "realArithmetic",
+            "request": "launch",
+            "mainClass": "java.foundations.operatorsAndExpressions.realArithmetic",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "appletCode",
+            "request": "launch",
+            "mainClass": "appletCode",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "appletCode",
+            "request": "launch",
+            "mainClass": "java.foundations.graphics.AWT.appletCode",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "Booleana",
+            "request": "launch",
+            "mainClass": "Booleana",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "Arraya",
+            "request": "launch",
+            "mainClass": "Arraya",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "Fora",
+            "request": "launch",
+            "mainClass": "Fora",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "graphics2",
+            "request": "launch",
+            "mainClass": "graphics2",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "graphics1",
+            "request": "launch",
+            "mainClass": "graphics1",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "graphicsClass",
+            "request": "launch",
+            "mainClass": "graphicsClass",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "DMD",
+            "request": "launch",
+            "mainClass": "DMD",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "dynamicMethodDispath",
+            "request": "launch",
+            "mainClass": "dynamicMethodDispath",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "dynamicMethodDispath",
+            "request": "launch",
+            "mainClass": "java.foundations.dynamicmethodDispath.dynamicMethodDispath",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "varArgs2",
+            "request": "launch",
+            "mainClass": "varArgs2",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "varArgs1",
+            "request": "launch",
+            "mainClass": "varArgs1",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "varArgs",
+            "request": "launch",
+            "mainClass": "varArgs",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "abstractMethod",
+            "request": "launch",
+            "mainClass": "abstractMethod",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "abstractClass1",
+            "request": "launch",
+            "mainClass": "abstractClass1",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "finalClass",
+            "request": "launch",
+            "mainClass": "finalClass",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "finalKeyword",
+            "request": "launch",
+            "mainClass": "finalKeyword",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "overRidingMethods",
+            "request": "launch",
+            "mainClass": "overRidingMethods",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "hierarchical_Inheritance",
+            "request": "launch",
+            "mainClass": "hierarchical_Inheritance",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "Multi_level_inheritance",
+            "request": "launch",
+            "mainClass": "Multi_level_inheritance",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "Example3",
+            "request": "launch",
+            "mainClass": "Example3",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "Example2",
+            "request": "launch",
+            "mainClass": "Example2",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "Example1",
+            "request": "launch",
+            "mainClass": "Example1",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "Inheritance",
+            "request": "launch",
+            "mainClass": "Inheritance",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "NestingTest",
+            "request": "launch",
+            "mainClass": "NestingTest",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "nestingMethods",
+            "request": "launch",
+            "mainClass": "nestingMethods",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "Room",
+            "request": "launch",
+            "mainClass": "Room",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "a1",
+            "request": "launch",
+            "mainClass": "a1",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "methover",
+            "request": "launch",
+            "mainClass": "methover",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "defaultConstructor",
+            "request": "launch",
+            "mainClass": "defaultConstructor",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "con1",
+            "request": "launch",
+            "mainClass": "con1",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "con",
+            "request": "launch",
+            "mainClass": "con",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "Con",
+            "request": "launch",
+            "mainClass": "Con",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "Employee",
+            "request": "launch",
+            "mainClass": "Employee",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "AssigningReferenceToSameObjects",
+            "request": "launch",
+            "mainClass": "AssigningReferenceToSameObjects",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "creatingRectArea",
+            "request": "launch",
+            "mainClass": "creatingRectArea",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "definingAClass",
+            "request": "launch",
+            "mainClass": "definingAClass",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "methodOverloading",
+            "request": "launch",
+            "mainClass": "methodOverloading",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "Random",
+            "request": "launch",
+            "mainClass": "Random",
+            "projectName": "programs_f97580b4"
+        },
+        {
+            "type": "java",
+            "name": "Launch Random",
+            "request": "launch",
+            "mainClass": "Random",
+            "projectName": "programs_e4e13b13"
+        },
+        {
+            "type": "java",
+            "name": "Launch oopsa",
+            "request": "launch",
+            "mainClass": "oopsa",
+            "projectName": "programs_e4e13b13"
+        },
+        {
+            "type": "java",
+            "name": "Launch OOPS",
+            "request": "launch",
+            "mainClass": "OOPS",
+            "projectName": "programs_e4e13b13"
+        },
+        {
+            "type": "java",
+            "name": "Launch Booleana",
+            "request": "launch",
+            "mainClass": "Booleana",
+            "projectName": "programs_e4e13b13"
+        },
+        {
+            "type": "java",
+            "name": "Launch Print",
+            "request": "launch",
+            "mainClass": "Print",
+            "projectName": "programs_e4e13b13"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "programs_e4e13b13"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}

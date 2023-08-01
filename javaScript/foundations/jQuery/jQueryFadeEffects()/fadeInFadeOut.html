@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fade In and Fade Out in jquery</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>    
+</head>
+<body>
+    <p>Fade In and Fade Out</p>
+    <input type="button" value="fadeIn" id="fadeIn">
+    <input type="button" value="fadeOut" id="fadeOut">
+    <script>
+        $(document).ready(function(){
+            $("#fadeIn").click(function(){
+                $('p').fadeIn(1000);
+            });
+            $('#fadeOut').click(function(){
+                $('p').fadeOut(1000);
+            });
+        });
+
+    </script>
+    
+</body>
+</html>

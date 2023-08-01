@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Class in jquery</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+</head>
+<style>
+    .h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+        font-weight: lighter;
+        font-variant: small-caps;
+        color: crimson;
+        background-color: darkslateblue;
+    }
+</style>
+<body>
+
+    <button>click here to toggle class</button>
+    <h1 class="h1">This is a heading</h1>
+    <script>
+        $(document).ready(function(){
+            $('button').click(function(){
+                $('h1').toggleClass("h1");
+            });
+        });
+    </script>
+    
+</body>
+</html>

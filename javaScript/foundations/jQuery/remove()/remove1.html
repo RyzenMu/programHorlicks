@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rEMOVE () IN JQUERY</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- rEMOVE METHOD REMOVES THE ENTIRE PARENT TAG BUT EMPTY REMOVES THE CHILD TAGS -->
+    <button class="remove">Click here to remove the entire parent Tag using rremove method</button>
+    <div class="div" style="height: 250px; width: 250px; background-color: coral;">
+        this is div tag
+        <button>click here</button>
+        Option 1<input type="radio" name="radio" id="1">
+        Option 2<input type="radio" name="radio" id="2">
+
+    </div>
+    <script>
+        $(document).ready(function(){
+            $('.remove').click(function(){
+                $('input').remove("#1");
+            })
+        })
+    </script>
+    
+</body>
+</html>

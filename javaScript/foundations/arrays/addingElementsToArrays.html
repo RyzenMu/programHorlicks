@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adding Elemets to an Array</title>
+</head>
+<body>
+    <h1>1. Using push Method</h1>
+    <p>The push method adds the element to the last </p>
+    <script>
+        let arrStudents = ["Anil", "Bombay", "Caterpillar"];
+        document.writeln(arrStudents);
+        document.writeln("<br>");
+        document.writeln("<br>");
+
+        arrStudents.push("Donkey");
+        document.writeln(arrStudents);
+    </script>
+    <br><br>
+    <h1> 2. Using unShift Method</h1>
+    <p>The unshift method adds the element to the first</p>
+    <script>
+        let arrStudents1 = ["Anil", "Bombay", "Caterpillar"];
+        document.writeln(arrStudents1);
+        document.writeln("<br>");
+        document.writeln("<br>");
+
+        arrStudents1.unshift("Donkey");
+        document.writeln(arrStudents1);
+    </script>
+    <br><br>
+    <h1> 3. Using Splice Method</h1>
+    <p>The Splice method adds the element to the <b>Middle</b></p>
+    <script>
+        let arrStudents2 = ["Anil", "Bombay", "Caterpillar"];
+        document.writeln(arrStudents2);
+        document.writeln("<br>");
+        document.writeln("<br>");
+
+        arrStudents2.splice(1,0,"Donkey");
+        document.writeln(arrStudents2);
+    </script>
+    
+</body>
+</html>

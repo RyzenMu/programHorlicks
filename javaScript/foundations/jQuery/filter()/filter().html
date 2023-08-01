@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter() in jQuery</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <style>
+        table {
+            font-weight : bolder;
+            border-collapse:collapse; 
+        }
+        td, th {
+            border: 2px solid lightsteelblue;
+            text-align: left;
+            padding: 10px;
+        }
+        tr:nth-child(even) {
+            background-color: linen;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" name="" id="i" placeholder="search...">
+    <br><br>
+    <table>
+        <thead>
+            <tr>
+                <th>FIRST NAME</th>
+                <th>LAST NAME</th>
+                <th>EMAIL</th>
+            </tr>
+        </thead>
+        <tbody id="body">
+            <tr>
+                <td>Kabir</td>
+                <td>Kahaam</td>
+                <td>Kabirka@gmail.com</td>
+            </tr>
+            <tr>
+                <td>nirosha</td>
+                <td>Jasm</td>
+                <td>niroJa@gmail.com</td>
+            </tr>
+            <tr>
+                <td>pagal</td>
+                <td>raj</td>
+                <td>paraj@gmail.com</td>
+            </tr>
+            <tr>
+                <td>rishan</td>
+                <td>ved</td>
+                <td>rishved@gmail.com</td>
+            </tr>
+            <tr>
+                <td>zaara</td>
+                <td>tarra</td>
+                <td>zaataa@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Alex</td>
+                <td>John</td>
+                <td>AlexJoh@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+    <script>
+        $(document).ready(function(){
+            $('#i').on("keyup", function(){
+                let value = $(this).val().toLowerCase();
+                $("#body tr").filter(function(){
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+                });
+            });
+        });
+    </script>
+</body>
+</html>

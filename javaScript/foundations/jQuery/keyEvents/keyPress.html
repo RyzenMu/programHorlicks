@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key Press events in jQuery</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+</head>
+<body>
+    enter your name : <input type="text" name="" id="">
+    <p><span></span> Times Key Pressed</p>
+    <script>
+        $(document).ready(function(){
+            let x= 0;
+            $('input').keypress(function(){
+                $('span').text(x+=1);
+            })
+        })
+    </script>
+    
+</body>
+</html>

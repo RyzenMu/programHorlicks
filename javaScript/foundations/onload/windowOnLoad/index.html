@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Window On Load</title>
+    <script>
+        // window.onload(myFunc());
+        function myFunc(){
+            alert("Window on Load");
+            let a = document.getElementById('input-text');
+            a.select();
+        }
+        window.onload = myFunc();  
+         
+    </script>
+</head>
+<body onload="myFunc();">
+    <input type="text" value="mychannel" id="input-text" name="input-text">
+    
+</body>
+</html>

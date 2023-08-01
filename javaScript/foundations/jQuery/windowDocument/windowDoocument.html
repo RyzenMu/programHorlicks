@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Window vs Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <button>CLicl here for windows size</button>
+    <div></div>
+    <script>
+        $(document).ready(function(){
+            $('button').click(function(){
+                let txt = "";
+                txt += " Doc Width : " + $(document).width() + "<br>";
+                txt += " Doc Height : " + $(document).height() + "<br>";
+                txt += " Win width  : " + $(window).width() + "<br>";
+                txt += " Win Height : " + $(window).height() + "<br>";
+
+                $('div').html(txt);
+            });
+        });
+    </script>
+    
+</body>
+</html>

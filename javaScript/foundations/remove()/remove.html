@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove()/Hide</title>
+</head>
+<body>
+    <p id="para">This is a paragraph</p>
+    <ul id="list">
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+
+    </ul>
+    <input type="button" value="Click to Remove()" id="button" onclick="removePara()" ondblclick="removeList()">
+
+    <script>
+        let para = document.querySelector('#para');
+        let list = document.querySelector('#list');
+        let button = document.querySelector('#button');
+        function removePara(){
+            para.remove();
+        };
+        function removeList(){
+            list.remove();
+        }
+
+
+    </script>
+    
+</body>
+</html>

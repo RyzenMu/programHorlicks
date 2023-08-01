@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>after() in jquery</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <button>Click Here to add elements after </button>
+    <p>This is a Paragraph</p>
+    <script>
+        // before and after used in opening tags
+        // prepend and append used in closing tags
+        
+        $(document).ready(function(){
+            $('button').click(function(){
+                $('p').after("<button>This is amazing </button>")
+            })
+        })
+    </script>
+
+    
+</body>
+</html>

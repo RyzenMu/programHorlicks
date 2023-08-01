@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse Down and Mouse up in jquery</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <p>Mouse Up and Mouse Down Events</p>
+    <h1></h1>
+    <script>
+        $(document).ready(function(){
+            $('p').mousedown(function (){
+                $('h1').text('Mouse Clicked');
+            });
+            $('p').mouseup(function(){
+                $('h1').text('Mouse released');
+            });
+        });
+    </script>
+    
+</body>
+</html>

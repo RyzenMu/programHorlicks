@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traversing in jquery</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <style>
+        .a * {
+            border: 2px solid black;
+            display: block;
+            padding: 20px;
+            margin: 15px;  
+            color: black;     
+        }
+    </style>
+</head>
+<body>
+    <div class="a">
+        <div id="d2">Great - Grand Parent
+            <ul>
+                Grand Parent
+                <li>Parent 
+                    <span>Child Element</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <button class="Parent">
+        Child
+    </button>
+    <button class="parents">childrens</button>
+    <button class="parent-until">childrens- un</button>
+    <script>
+        $(document).ready(function(){
+            $('.Parent').click(function(){
+                $('#d2').children().css("border" ,"solid 2px red");
+                $('#d2').children().css("color", "red");
+            });
+            $('.parents').click(function(){
+                $('#d2').children().css({
+                    "border": "blue 2px solid",
+                    "color" : "grey"
+                });
+            });
+            $('.parent-until').click(function(){
+                $('#d2').children("#d2").css({
+                    "border": "blue 2px solid",
+                    "color" : "green"
+                });
+            });
+        });
+    </script>
+    
+</body>
+</html>

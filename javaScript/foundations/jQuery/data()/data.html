@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>data () method in jQuery</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <button id="b1">
+        ATTACH DATA TO DIV ELEMENT
+    </button>
+    <br>
+    <button id="b2">
+        GET DATA ATTACHED TO DIV ELEMENT
+    </button>
+    <div>
+
+    </div>
+    <script>
+        $(document).ready(function(){
+            alert(1);
+            $('#b1').click(function(){
+                alert(2);
+                $('div').data("greeting", "helloWorld")
+            });
+            $('#b2').click(function(){
+                alert(3);
+                alert($('div').data("greeting"))
+            });
+
+        });
+
+    </script>
+    
+</body>
+</html>

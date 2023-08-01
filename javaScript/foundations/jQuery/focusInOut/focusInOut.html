@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus In and Focus Out</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Focus In and Focus Out</h1>
+    <div style="border: solid 2px black; padding: 20px;">
+        ENTER NAME <input type="text" name="" id="name"><br>
+        ENTER PASSWORD <input type="password" name="" id="password">
+
+        <script>
+            $(document).ready(function(){
+                $('div').focusin(function(){
+                    $(this).css("background-color", "yellow");
+                });
+                $('div').focusout(function(){
+                    $(this).css("background-color", "pink");
+                });
+            });
+        </script>
+
+
+    </div>
+</body>
+</html>

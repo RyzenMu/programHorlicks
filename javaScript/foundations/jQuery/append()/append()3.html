@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Append 3 exxample</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <button onclick="function1();">Click to append</button>
+    <p>This is para-1</p>
+    <script>
+        function function1(){
+            let para2 = "<p>This is para-2</p>";
+            let para3 = $("<p></p>").text("This is para-3");
+            let para4 = document.createElement("p");
+            para4.innerHTML = "This is para-4";
+            $('body').append(para2, para3, para4);
+        }
+    </script>
+
+</body>
+</html>

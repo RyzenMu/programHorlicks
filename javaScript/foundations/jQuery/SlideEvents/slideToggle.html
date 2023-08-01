@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slide Toggle in jquery</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <style>
+        #flip, #panel {
+            padding: 5px;
+            text-align: center;
+            background-color: royalblue;
+            border: 2px solid tomato;
+        }
+        #panel {
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div id="flip">Click to slide Toggle</div>
+    <div id="panel">Division Tag</div>
+    <script>
+        $(document).ready(function(){
+            $('#flip').click(function(){
+                $('#panel').slideToggle("slow");
+            });
+        });
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>My Page</title>
+  <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+ <p>Hello world!!!</p>
+ 
+
+ <button>jhgjh</button>
+
+ <script>
+    $(document).ready(function(){
+      alert('Ok');
+      $('button').load('test.html', function(res, status, xhr){
+
+          if (status == "success"){
+            alert("success");
+          }
+          else if (status == "error"){
+            alert("error" + xhr.status)
+          }
+
+      });
+    });
+ </script>
+
+</body>
+</html>

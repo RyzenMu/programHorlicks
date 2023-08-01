@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Time Out</title>
+</head>
+<body>
+    
+
+    <h2>Set Time Out</h2>
+
+    <script>
+        function func2(){
+            function func3(){
+                document.writeln("Func 3 ");
+            }
+            setTimeout(func3(), 10000);
+        }
+
+
+       func2();
+       setTimeout(func2(), 10000);
+       
+
+    </script>
+</body>
+</html>

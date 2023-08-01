@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover() in JQuery</title>
+    <script src="../jQueryTutorialTamil/installation/jQueymin.js"></script>
+</head>
+<body>
+    Enter Your Name <input type="text" name="name" id="name1">
+    <script>
+        $(document).ready(function(){
+            $("#name1").hover(function () {
+                $(this).css("background-color", "silver");
+            }, function(){
+                $(this).css("background-color", "pink");
+            });
+        });
+
+    </script>
+</body>
+</html>
