@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Constructor function 1 </title>
+</head>
+<body>
+<div id = "div"></div>
+<script>
+let orange = new Function("a", "b", "c", "return a*b*(c)");
+result = orange(1, 14, 1.1);
+document.getElementById("div").innerHTML = "The weight of Orange is " + result + "gms";
+</script>
+</body>
+</html>

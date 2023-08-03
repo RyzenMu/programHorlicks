@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Function Expression </title>
+</head>
+<body>
+<h2>The total is <b id="tot"></b></h2>
+<script>
+let total = 0;
+let add = function(number)
+{
+total += number;
+};
+add(15);
+add(22);
+add(10);
+add(8);
+add(26);
+document.getElementById("tot").innerHTML = total;
+</script>
+</body>
+</html>
