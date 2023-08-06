@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Functions As Objects</title>
+</head>
+<body>
+<script>
+let fbody = "return Math.PI*rad*rad";
+let circle= new Function("rad", fbody);
+alert(circle(55));
+</script>
+</body>
+</html>
