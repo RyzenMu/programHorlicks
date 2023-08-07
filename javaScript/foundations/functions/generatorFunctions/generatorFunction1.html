@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Generator function 1 </title>
+</head>
+<body>
+<script>
+function* gen(a)
+{
+yield 2*a;
+yield 3*a;
+yield 4*a;
+return 5*a;
+};
+let generator = gen(2);
+let res1 = generator.next();
+let res2 = generator.next();
+let res3 = generator.next();
+let res4 = generator.next();
+document.writeln(JSON.stringify(res1));
+document.writeln("<br>");
+document.writeln(JSON.stringify(res2));
+document.writeln("<br>");
+document.writeln(JSON.stringify(res3));
+document.writeln("<br>");
+document.writeln(JSON.stringify(res4));
+document.writeln("<br>");
+</script>
+</body>
+</html>

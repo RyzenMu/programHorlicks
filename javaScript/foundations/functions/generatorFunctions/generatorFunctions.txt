@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Generator Functions </title>
+</head>
+<body>
+<script>
+let res = function* generateSequence()
+{
+yield 1;
+yield 2;
+return 3;
+};
+document.writeln(res);
+</script>
+</body>
+</html>
