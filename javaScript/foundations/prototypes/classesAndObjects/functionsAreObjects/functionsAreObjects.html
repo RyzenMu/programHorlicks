@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Functions Are Objects </title>
+</head>
+<body>
+<script>
+// constructor function
+function Circle(radius)
+{
+this.radius = radius;
+this.draw = function()
+{
+console.log('draw');
+}
+}
+let c1 = new Circle(2);
+document.writeln(c1.radius);
+// functions are objects explained
+const Circle1 = new Function('radius',
+`
+this.radius = radius;
+this.draw = function()
+{
+console.log(radius);
+}
+`);
+let c2 = new Circle1(5);
+document.writeln(c2.radius);
+
+</script>
+</body>
+</html>

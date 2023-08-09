@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Call () example 3 </title>
+</head>
+<body>
+<script>
+let location1 = 
+{
+name : "Tambaram",
+};
+let location2 = 
+{
+name : "Guduvancherry"
+};
+
+let settlingPoint = 
+{
+place : function()
+{
+return this.name;
+}
+};
+document.writeln(settlingPoint.place.call(location2));
+</script>
+</body>
+</html>

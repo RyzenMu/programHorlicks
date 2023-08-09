@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Apply () Example1 </title>
+</head>
+<body>
+<script>
+let location1 = {
+name : "chengalpattu"
+};
+let location2 = 
+{
+name : "Kancheepuram"
+};
+
+let restingPlace = 
+{
+place : function()
+{
+return this.name;
+}
+};
+document.writeln(restingPlace.place.apply(location1));
+</script>
+</body>
+</html>

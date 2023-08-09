@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Call Method in JS</title>
+</head>
+<body>
+<script>
+const person = 
+{
+fullName : function()
+{
+return this.firstName + " " + this.lastName;
+}
+};
+const person1 = 
+{
+firstName : "Mosh",
+lastName : "Hamedani"
+};
+const person2 =
+{
+firstName : "Navin",
+lastName : "Reddy"
+};
+document.writeln(person.fullName.call(person1));
+</script>
+</body>
+</html>

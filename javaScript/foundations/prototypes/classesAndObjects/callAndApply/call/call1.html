@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Call () Example 1 </title>
+</head>
+<body>
+<script>
+let branch1 = {
+name : "Sankarapuram",
+code : 60073
+};
+
+let branch2 = {
+name : "Arasampattu",
+code : 60018
+};
+
+let func1 = {
+func : function ()
+{
+return this.name;
+}
+};
+document.writeln(func1.func.call(branch2));
+
+</script>
+</body>
+</html>
