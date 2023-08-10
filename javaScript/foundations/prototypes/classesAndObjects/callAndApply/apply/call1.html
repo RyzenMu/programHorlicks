@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Call Method Example 2 </title>
+</head>
+<body>
+<script>
+
+let threatre1 = 
+{
+name : "laurel",
+};
+let threatre2 =
+{
+name : "vidhya",
+};
+let cinema =
+{
+place : function(city, city1)
+{
+
+return this.name + "  near " + this.city + " in " + this.city1  ;
+}
+};
+
+document.writeln(cinema.place.apply(threatre1, ["Tambaram", "Chennai"]));
+
+</script>
+</body>
+</html>

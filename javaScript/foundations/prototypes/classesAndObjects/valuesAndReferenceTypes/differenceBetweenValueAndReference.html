@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Difference Between Value And Reference in Html</title>
+</head>
+<body>
+<script>
+let x = 10;
+let y = x;
+x = 20;
+document.writeln("The value of X in Copy By Value is : " + x);
+document.writeln("<br>");
+document.writeln("The value of Y in Copy By Value is : " + y);
+document.writeln("<br>");
+document.writeln("<br>");
+document.writeln("<br>");
+let x1 = { value : 10 };
+let y1 = x1;
+x1.value = 20;
+document.writeln("The value of X1 in Copy By Reference is : " + x1.value);
+document.writeln("<br>");
+document.writeln("The value of Y1 in Copy By Reference is : " + y1.value);
+document.writeln("<br>");
+document.writeln("<br>");
+document.writeln("<br>");
+document.writeln("In case of x the value is stores inside x");
+document.writeln("<br>");
+document.writeln("In case of x1 the value is stored inside address of x1");
+document.writeln(" Primiti");
+
+</script>
+</body>
+</html>
