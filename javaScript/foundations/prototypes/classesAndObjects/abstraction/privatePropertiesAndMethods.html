@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Private Properties and Methods Example 1 </title>
+</head>
+<body>
+<script>
+function TeaShop(milk, tea, coffee,)
+{
+this.milk = milk;
+this.tea = tea;
+this.coffee = coffee;
+let commission = 2;
+this.totalNormal = function()
+{
+let special = totalSpecial();
+return special;
+}; 
+let totalSpecial = function()
+{
+return (milk*11+tea*11+coffee*11+commission);
+};
+};
+let customer1 = new TeaShop(1,1,1);
+let prop = Object.keys(customer1);
+document.writeln(prop);
+document.writeln("<br>");
+document.writeln("The bill amount of normal customer is : " + customer1.totalNormal());
+document.writeln("<br>");
+//document.writeln("The bill amount of special customer is : " +
+//totalSpecial());
+
+</script>
+</body>
+</html>

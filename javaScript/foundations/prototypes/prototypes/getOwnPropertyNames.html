@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> prototypes Basics </title>
+</head>
+<body>
+<script>
+let obj =
+{
+prop1 : () => console.log('prop1'),
+};
+
+
+let obj2 = 
+{
+prop2 : ()=> console.log('prop2'),
+};
+Object.setPrototypeOf(obj2, obj);
+console.log(Object.getOwnPropertyNames(obj2));
+console.log(Object.getOwnPropertyNames(Object.getPrototypeOf(obj)));
+</script>
+</body>
+</html>

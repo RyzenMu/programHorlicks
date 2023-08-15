@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Prototype Basic2 </title>
+</head>
+<body>
+<script>
+let arr = ["Akshay", "Aditya"];
+
+let obj = {
+name : "Marsh",
+city : "NewYork",
+getIntro : function()
+{
+return this.name + " is from " +this.city;
+},
+};
+
+let obj2 = {
+name : "muruga",
+};
+
+obj2.__proto__ = obj;
+console.log(obj2.city);
+console.log(obj2.getIntro());
+
+</script>
+</body>
+</html>

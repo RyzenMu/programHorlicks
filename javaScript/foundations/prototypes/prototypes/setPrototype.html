@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> prototypes Basics </title>
+</head>
+<body>
+<script>
+let obj =
+{
+prop1 : () => console.log('prop1'),
+};
+
+let obj2 =
+{
+prop2 : () => console.log('prop2'),
+};
+
+Object.setPrototypeOf(obj2, obj);
+
+obj2.prop2();
+obj2.prop1();
+obj2.toString();
+
+let keys = Object.keys(obj2);
+console.log(keys);
+
+for (let prop in obj2)
+{
+console.log(prop);
+};
+</script>
+</body>
+</html>

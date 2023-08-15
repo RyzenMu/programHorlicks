@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Prototype Basic 3</title>
+</head>
+<body>
+<script>
+Function.prototype.mybind = function()
+{
+console.log("This is protoype function 1");
+};
+
+function fun3()
+{};
+
+function fun6()
+{};
+
+console.log(fun3.mybind());
+console.log(fun6.mybind());
+</script>
+</body>
+</html>

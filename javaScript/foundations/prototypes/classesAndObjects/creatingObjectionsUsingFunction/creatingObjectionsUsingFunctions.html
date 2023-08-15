@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Creating Objects Ising Functions </title>
+</head>
+<body>
+<script>
+function Circle(radius)
+{
+this.radius = radius;
+this.area = function()
+{
+return 3.14*this.radius*this.radius;
+};
+};
+
+let c1 = new Circle(4)
+document.writeln(c1.radius);
+document.writeln("<br>");
+document.writeln(c1.area());
+</script>
+</body>
+</html>

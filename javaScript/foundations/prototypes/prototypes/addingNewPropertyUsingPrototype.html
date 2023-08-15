@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Adding New Property Using Prototype</title>
+</head>
+<body>
+<script>
+//constructor function
+function student(name, age)
+{
+let constant1 = parseInt(98876);
+this.name = name;
+this.age = parseInt(age);
+};
+student.prototype.year = "1st year";
+student.prototype.rollNo = function()
+{
+return this.age+parseInt(this.constant1);
+};
+let s1 = new student("rohini", 23);
+document.writeln(s1.year);
+document.writeln("<br>");
+document.writeln(s1.rollNo());
+</script>
+</body>
+</html>

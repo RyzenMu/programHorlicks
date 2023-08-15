@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Creating Objects Using Functions example 1 </title>
+</head>
+<body>
+<script>
+function biriyani(chicken, mutton)
+{
+this.chicken = chicken;
+this.mutton = mutton;
+this.price = function()
+{
+return (chicken*100+mutton*200); 
+}
+};
+
+let customer1 = new biriyani(2, 3);
+let customer2 = new biriyani(1, 1);
+document.writeln("The bill amount for customer 1 : " + customer1.price());
+document.writeln("<br>");
+document.writeln("The bill amount for customer 2 : " + customer2.price());
+
+</script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Getter and Setter </title>
+</head>
+<body>
+<script>
+function Movie(hero, genre, director)
+{
+this.hero = hero;
+this.genre = genre;
+this.director = director;
+let music = function()
+{
+return "raja";
+};
+this.getMusic = function()
+{
+return music();
+};
+Object.defineProperty(this, 'music', {
+get : function()
+{
+return music;
+},
+set : function(value)
+{
+music = value;
+},
+})
+};
+let m1 = new Movie("ajith", "romance", "maniratnam");
+document.writeln(m1.getMusic());
+document.writeln(m1.music());
+let prop = Object.keys(m1);
+document.writeln("<br>");
+document.writeln(prop);
+console.log(m1);
+</script>
+</body>
+</html>

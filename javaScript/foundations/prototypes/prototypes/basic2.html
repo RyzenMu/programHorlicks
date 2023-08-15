@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> prototypes Basics 2</title>
+</head>
+<body>
+<script>
+"use strict"
+let user =
+{
+name : 'anonymous',
+pageAccess : ['login', 'dashboard', 'contact'],
+
+set setName(value)
+{
+this.name = value;
+},
+
+get getName()
+{
+return this.name;
+},
+};
+
+let admin = {
+__prototype__ :user,
+isAdmin : true,
+};
+admin.name = 'admin101';
+console.log(admin);
+console.log(user);
+console.log(admin.name);
+console.log(user.name);
+</script>
+</body>
+</html>
