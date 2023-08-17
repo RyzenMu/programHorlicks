@@ -1,16 +1,23 @@
-arr = [1, 1, 2, 2, 3, 5, 7, 7, 7, 9, 10, 15]
 
-def search(list, x):
-	low = 0
-	high = len(list)-1
-	while low <high:
+import math
+
+arr = [1, 2, 3,4, 5, 6, 7, 8, 9, 10]
+
+print(arr)
+
+low = 0
+high = len(arr)
+mid = (low+high)//2
+
+while low < mid:
+
+	if mid %2 == 0:
 		mid = (low+high)//2
-		if list[mid] <= x:
-			low = mid
-		else:
-			high = mid
-	return mid	
+	
+	else:
+		mid = (low+high)//2
 
-result = search(arr, 15)
-
-print("the result is : ", result)
+	print("mid :", mid)
+	print("left bisect : ", arr[low:mid])
+	print("right bisect : ", arr[mid:high])
+	high = mid
