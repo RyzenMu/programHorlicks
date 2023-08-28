@@ -1,4 +1,4 @@
-unsorted_list  = [3, 2, 4, 5,]
+unsorted_list  = [3, 2, 4, 5, 1]
 
 sorted_list = []
 
