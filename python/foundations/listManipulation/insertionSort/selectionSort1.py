@@ -1,4 +1,4 @@
-unsorted_list  = [3, 2, 4, 5, 1]
+unsorted_list  = [63, 98, 17, 963, 25, 96, 185]
 
 sorted_list = []
 
@@ -11,19 +11,22 @@ sorted_list.append(0)
 sorted_list.append(2)
 '''
 
-def sort(list):
-	for s in range(len(list)):
-		temp = []
-		for d in range(len(list)):
-			if list[s] < list[d]:
-				temp.append(list[d])
-		print(temp)
-		print("-------------------")
+def max (list):
+	while len(unsorted_list) != 0:
+		for t in range(len(list)-1):
+			if list[t] > list[t+1]:
+				temp = list[t]
+				list[t] = list [t+1]
+				list[t+1] = temp
+		maximum = list[-1]
+		#print(maximum)
+		sorted_list.append(maximum)
+		unsorted_list.remove(list[-1])
+	
+
+
+max(unsorted_list)
+
+print(sorted_list)
 		
-					
-				
-				
-				
-
-
-sort(unsorted_list)
+		
