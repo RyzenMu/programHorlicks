@@ -11,7 +11,7 @@ def sort(nums):
 
 
 
-nums = [5, 3, 8, 6, 7, 2]
+nums = [5, 3, 8, 6, 7, 2, 0]
 sort(nums)
 
 print(nums)
