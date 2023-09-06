@@ -11,7 +11,7 @@ print(main().__next__())
 print("-------------")
 print(main().__next__())
 
-print("-------------")
+print("--------  ,,-----")
 print(main().__next__())
 
 print("-------------")
