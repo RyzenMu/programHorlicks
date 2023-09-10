@@ -1,0 +1,15 @@
+
+1. import the package (java.sql.*)
+
+2. load and register the driver (com.mysql.jdbc.Driver)//mysql.connector
+	class.forName("com.mysql.jdbc.driver)
+
+3. establising the connection - instantiate 
+
+4. create the statement - statement, prepared, callable
+
+5. execute the query
+
+6. process result
+
+7. close
