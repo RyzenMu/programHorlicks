@@ -1,0 +1,24 @@
+#built in functions
+
+class A:
+    def __init__(self):
+        pass
+    
+class B(A):
+    x = 50
+    z = 450
+    def __init__(self):
+        pass
+
+b = B()    
+print(issubclass(B, A))#True
+print(issubclass(A, B))#False
+print(isinstance(b, A))#True
+print(isinstance(b, B))#True
+print(hasattr(b, 'x'))#True
+print(getattr(b, "x"))#50
+setattr(b, 'x', 90)
+print(getattr(b, 'x'))#90
+print(hasattr(b, 'z'))#True
+print(getattr(b, 'z'))#450
+# delattr(b, 'z')

@@ -1,0 +1,22 @@
+# Multi-Level Inheritance
+
+class Phone:
+    def __init__(self, screenSize):
+        self.screenSize = screenSize
+        
+    def area(self):
+        return self.screenSize * 3
+        
+        
+class Tablet(Phone):
+    def cores(self):
+        return self.area()//4
+        
+class Laptop(Tablet):
+    def price(self):
+        return self.cores()*2000
+        
+l1 = Laptop(17)
+print(l1.area())
+print(l1.cores())
+print(l1.price())

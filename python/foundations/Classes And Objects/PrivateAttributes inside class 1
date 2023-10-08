@@ -1,0 +1,24 @@
+#Private Attributes in a class
+
+# use __(double under score) before variable name to make private
+
+class Dog(object):
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+dog1 = Dog("Michael jackson", 44)
+
+dog1.name = "silverstar stallene"
+
+print(dog1.name)
+
+# with private attribute
+class Cat(object):
+    def __init__(self, name, age):
+        self.__name = name
+        self.__age = age
+        
+cat1 = Cat("corey", 65)
+cat1.name = "anoop"
+print(cat1._Cat__name)

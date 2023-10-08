@@ -1,0 +1,24 @@
+# static methods 2
+
+class Tablets:
+    counter = 0
+    def __init__(self, name, price):
+        self.name = name
+        self.price = price
+        Tablets.increment()
+        
+    @staticmethod
+    def increment():
+        Tablets.counter = Tablets.counter + 1
+        
+    @staticmethod
+    def printer():
+        return Tablets.counter
+        
+t1 = Tablets("becadexamin", 50)
+t2 = Tablets("Revital", 110)
+t3 = Tablets("Mankind", 100)
+t4 = Tablets("Apollo", 120)
+t5 = Tablets("Zincovit", 80)
+
+print(Tablets.counter)

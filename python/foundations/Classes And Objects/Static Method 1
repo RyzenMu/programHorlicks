@@ -1,0 +1,23 @@
+#static methods
+
+class Person(object):
+    personCount = 0
+    def __init__(self, name, DOB, address):
+        self.name = name
+        self.DOB = DOB
+        self.address = address
+        Person.incPersonCount()
+    
+    @staticmethod    
+    def incPersonCount():
+        Person.personCount += 1
+        
+    @staticmethod
+    def getPersonCount():
+        return Person.personCount
+        
+p1 = Person("Amrit", "17-06-2000", "Tambaram")
+p2 = Person("Chandrasekar", "10-09-19994", "Ekatuthangal")
+p3 = Person("Damodar", "06-01-1993", "Adayar")
+
+print(Person.personCount)

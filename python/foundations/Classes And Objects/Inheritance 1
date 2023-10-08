@@ -1,0 +1,18 @@
+#inheritance
+
+class Road:
+    def __init__(self, breadth):
+        self.breadth = breadth
+        
+    def noOfLane(self):
+        return (self.breadth/3)
+        
+class Runway(Road):
+    def noOfLights(self):
+        return(self.breadth*100)
+        
+        
+r1 = Runway(60)
+print(r1.noOfLane())
+print(r1.noOfLights())
+    

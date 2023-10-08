@@ -1,0 +1,15 @@
+// python classes and objects example 4
+
+class Employee:
+    def __init__(self, name, id):
+        self.name = name
+        self.id = id
+        
+    def brief(self):
+        print("my name is ", self.name , "and my id is : ", self.id)
+        
+e1 = Employee("jack", 7917)
+e1.brief()
+e2 = Employee("feruguson", 8767)
+Employee.brief(e2)
+  

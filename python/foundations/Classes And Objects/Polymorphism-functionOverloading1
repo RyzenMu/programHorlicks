@@ -1,0 +1,20 @@
+#Function Overloading -1
+
+class Student:
+    def __init__(self, name):
+        self.name = name
+        
+    def avg(self, m1=None, m2=None, m3=None):
+        if m1!=None and m2!=None and m3!=None:
+            res = (m1+m2+m3)/3
+        elif m1!=None and m2!=None:
+            res = (m1+m2)/2
+        elif m3 == None and m2 == None:
+            res = m1
+            
+        return res
+        
+s1 = Student("carol")
+print(s1.avg(12, 4, 77))
+print(s1.avg(12, 4))
+print(s1.avg(66))

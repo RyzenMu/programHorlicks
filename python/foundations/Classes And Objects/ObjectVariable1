@@ -1,0 +1,17 @@
+#Object variables in python
+
+class Staff:
+    def __init__(self, name, id):
+        self.name = name
+        self.id = id
+        
+    def __str__(self):
+        return "My name is {} \n and my rollno is {} and my age is {}".format(self.name, self.id, self.age)
+        
+        
+s1 = Staff("Mithun", 87687)
+s2 = Staff("Documentation", 76722)
+
+s1.age = 45
+
+print(str(s1))

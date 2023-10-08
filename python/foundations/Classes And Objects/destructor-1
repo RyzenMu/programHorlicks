@@ -1,0 +1,29 @@
+#Destructor
+
+class Employment:
+    
+    count = 0
+    
+    def __init__(self, name, field):
+        self.name = name
+        self.field = field
+        Employment.count = Employment.count +1
+        
+    def __del__(self):
+        print("deleted")
+        Employment.count = Employment.count - 1
+        
+    def getCount(self):
+        return Employment.count
+        
+c1 = Employment("Talent Corp", "Odoo Development" )
+c2 = Employment("Madurai", "Spring Boot" )
+c3 = Employment("LokmatMedia", "css" )
+c4 = Employment("siemens", "react" )
+c5 = Employment("Tech mahendra", "azure devops" )
+
+print(c5.getCount())
+
+del c5
+
+print(c3.getCount())

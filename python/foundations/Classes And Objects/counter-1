@@ -1,0 +1,22 @@
+# counting number of objects in a class
+
+class WaterCan:
+    count = 0
+    def __init__(self, name, ltr):
+        self.name = name
+        self.litre = ltr
+        WaterCan.count = WaterCan.count + 1
+        
+    def getCount(self):
+        return WaterCan.count
+        
+        
+w1 = WaterCan("Bisleri", 3)
+w2 = WaterCan("Jeo", 2)
+w3 = WaterCan("hot", 7)
+w4 = WaterCan("blue", 4)
+
+
+print(w1.getCount())
+
+        

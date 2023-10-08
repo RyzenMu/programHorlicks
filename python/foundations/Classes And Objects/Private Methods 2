@@ -1,0 +1,13 @@
+#private methods inside a class
+
+class Place(object):
+    def __init__(self, name, price):
+        self.name = name
+        self.price = price
+        
+    def __where(self):
+        print("I stayed in {} for {} price".format(self.name, self.price))
+    
+p1 = Place("pudukottai", 5000)
+
+p1._Place__where()

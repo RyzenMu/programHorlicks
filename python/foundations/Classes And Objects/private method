@@ -1,0 +1,18 @@
+# private methods inside a class
+
+class Snacks(object):
+    def __init__(self, name, price):
+        self.name = name
+        self.price = price
+        
+    def __display(self):
+        print("{} costs {}".format(self.name, self.price)) 
+        
+    def description(self):
+        self.__display()
+    
+        
+        
+muru = Snacks("murukku", 30)
+
+muru.description()

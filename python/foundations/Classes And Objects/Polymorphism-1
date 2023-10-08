@@ -1,0 +1,20 @@
+# Polymorphism 
+# polymorphism
+
+class French:
+    def say_hello(self):
+        print('Bonjur')
+        
+class Chinese:
+    def say_hello(self):
+        print("ni hao")
+        
+        
+def func1(lan):
+    lan.say_hello()
+    
+pran = French()
+iota = Chinese()
+
+func1(pran)
+func1(French())

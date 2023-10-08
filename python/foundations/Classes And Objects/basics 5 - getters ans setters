@@ -1,0 +1,40 @@
+// classes in python
+
+class Person:
+  def __init__(self, name, DOB, address):
+    self.name = name
+    self.DOB = DOB
+    self.address = address
+
+  def getName(self):
+    return self.name
+    
+  def getDOB(self):
+      return self.DOB
+      
+  def getAddress(self):
+      return self.address
+      
+  def setName(self, newName):
+      self.name = newName
+      
+  def setDOB(self, newDOB):
+      self.DOB = newDOB
+      
+  def setAddress(self, newAddress):
+      self.address = newAddress
+      
+      
+      
+      
+muruga = Person("muruganantham", "28-04-1986", "Chinna Ernavoor")
+
+print(muruga.getName())
+print(muruga.getDOB())
+print(muruga.getAddress())
+muruga.setName("Miner")
+muruga.setDOB("14-01-1994")
+muruga.setAddress("Puluthivakkam")
+print(muruga.getName())
+print(muruga.getDOB())
+print(muruga.getAddress())

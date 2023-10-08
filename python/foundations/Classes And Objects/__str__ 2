@@ -1,0 +1,17 @@
+#special method __str__ - 2
+
+class Bag:
+    def __init__(self, color, weight):
+        self.color = color
+        self.weight = weight
+        
+    def __str__(self):
+        return "{} color bag carries {} kg".format(self.color, self.weight)
+        
+b1 = Bag("red", 5)
+b2 = Bag("blue", 7)
+b3 = Bag("green", 10)
+
+print(str(b1))
+print(str(b2))
+print(str(b3))

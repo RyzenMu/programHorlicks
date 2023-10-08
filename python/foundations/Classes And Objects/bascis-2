@@ -1,0 +1,30 @@
+// classes and objects i python example 2
+
+class Person:
+    def __init__(self, name, age, gender):
+        self.name = name
+        self.age = age
+        self.gender = gender
+    
+    def talk(self):
+        print("Hi , I am ", self.name)
+        
+    def vote(self):
+        if self.age >=18:
+            print("I am eligible to vote")
+        else:
+            print(" I dont vote")
+        
+p1 = Person("alex", 45, "male")
+p2 = Person("mary", 13, "female")
+print(p1.name)
+print(p1.age)
+print(p1.gender)
+p1.talk()
+p1.vote()
+
+print(p2.name)
+print(p2.age)
+print(p2.gender)
+p2.talk()
+p2.vote()

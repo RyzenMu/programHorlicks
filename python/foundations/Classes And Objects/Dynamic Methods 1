@@ -1,0 +1,20 @@
+# dynamic methods
+
+class Student:
+    def __init__(self, name, m1, m2):
+        self.name = name
+        self.mark1 = m1
+        self.mark2 = m2
+
+        
+s1 = Student("maria", 77, 67)
+s2 = Student("Gomes", 55, 90)
+
+def tota(self):
+    t = self.mark1 + self.mark2
+    return t
+    
+Student.total = tota
+
+print(s1.total())
+print(s2.total())

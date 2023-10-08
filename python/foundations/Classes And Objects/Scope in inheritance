@@ -1,0 +1,24 @@
+#Scope in Inheritance
+
+class C1:
+    def __init__(self):
+        self.a = 20
+        self.b = 25
+        
+    def pri(self):
+        print(self.a , self.b)
+        
+        
+class C2:
+    def __init__(self):
+        C1.__init__(self)
+        self.c = 30
+        
+    def pri(self):
+        C1.pri(self)
+        print( self.c)
+        
+        
+c2 = C2()
+c2.pri()
+        

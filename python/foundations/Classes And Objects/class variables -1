@@ -1,0 +1,21 @@
+// class variables in python
+
+class Employee:
+
+  def __init__(self, first, last, pay,):
+    self.first = first
+    self.last = last
+    self.pay = pay
+  
+  def fullname(self):
+    return '{}  - {}'.format(self.first, self.last)
+
+  def apply_raise(self):
+    self.pay = int(self.pay * 1.04)
+    
+    
+e1 = Employee("corey", "scrafer", 100000)
+print(e1.fullname())
+print(e1.pay)
+e1.apply_raise()
+print(e1.pay)

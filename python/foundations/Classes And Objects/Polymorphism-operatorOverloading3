@@ -1,0 +1,16 @@
+#operator overloading 2
+
+class House:
+    def __init__(self, rooms, color):
+        self.rooms = rooms
+        self.color = color
+        
+    def __add__(self, other):
+        return self.rooms + other.rooms
+        
+        
+h1 = House(3, "black")
+h2 = House(4, "brown")
+
+print(h2+h1)
+print(h2.__add__(h1))

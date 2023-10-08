@@ -1,0 +1,21 @@
+# counter in a class
+
+class Work:
+    count = 0
+    def __init__(self, nameOfCompany, profession):
+        self.nameOfCompany = nameOfCompany
+        self.profession = profession
+        Work.count = Work.count + 1
+        
+    def getCount(self):
+        return Work.count
+        
+        
+tcs = Work("T.C.S", "java")
+cts = Work("C.T.S", "python")
+cpj = Work("Capgemini", "C++")
+acte = Work("Accenture", "Java-Script")
+
+print(cpj.getCount())
+        
+        

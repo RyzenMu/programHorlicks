@@ -1,0 +1,29 @@
+#Multiple Inheritance
+
+class Operation:
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+        
+class Add(Operation):
+    def add(self, a, b):
+        return a+b
+        
+class Sub(Operation):
+    def sub(self, a, b):
+        return a - b
+        
+class Mul(Operation):
+    def mul(self, a, b):
+        return a*b
+        
+class Div(Operation):
+    def div(self, a, b):
+        return a/b
+        
+class Calculator(Add, Sub, Mul, Div):
+    def result(self):
+        pass
+    
+c1 = Calculator(8, 6)
+print(c1.add())

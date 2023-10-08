@@ -1,0 +1,31 @@
+class Cycle:
+    def speed(self):
+        print(10)
+        
+class Bike:
+    def speed(self):
+        print(50)
+        
+class Car:
+    def speed(self):
+        print(100)
+        
+class Bus:
+    def speed(self):
+        print(120)
+        
+class Train:
+    def speed(self): 
+        print(150)
+        
+def printq(mod):
+    mod.speed()
+    
+tvs = Bike()
+Hercules = Cycle()
+Maruthi = Car()
+AshokLeyland = Bus()
+irctc = Train()
+
+printq(AshokLeyland)
+printq(Maruthi)

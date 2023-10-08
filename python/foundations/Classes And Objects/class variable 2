@@ -1,0 +1,21 @@
+# class variable example 2
+
+class Bus:
+    price = 100
+
+    def __init__(self, make, seats, destination):
+        self.make = make
+        self.seats = seats
+        self.destination = destination
+    
+    def collections(self):
+        return (self.seats*self.price)
+        
+    
+b1 = Bus("AL", 55, "trichy")
+b2 = Bus("Volvo", 75, "karaikudi")
+b3 = Bus("tata", 40, "arantangi")
+ 
+print(b1.destination, b1.collections())
+print(b2.destination, b2.collections())
+print(b3.destination, b3.collections())

@@ -1,0 +1,25 @@
+#multiple Inheritance
+
+class A:
+    def fun1(self):
+        print("function 1")
+        
+class B:
+    def fun2(self):
+        print("function 2")
+        
+class C:
+    def fun3(self):
+        print("function 3")
+        
+class D(A, B, C):
+    def fun4(self):
+        print("function 4")
+        
+        
+d1 = D()
+
+d1.fun1()
+d1.fun2()
+d1.fun3()
+d1.fun4()

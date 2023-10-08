@@ -1,0 +1,23 @@
+class Dresses(object):
+    def __init__(self, color, type):
+        self.__color = color
+        self.__type = type
+        
+    def __str__(self):
+        return "{} color {} i wear today".format(self.__color, self.__type)
+        
+        
+d1 = Dresses("grey", "shirt")
+d2 = Dresses("black", "pant")
+d3 = Dresses("yellow", "shirt")
+d4 = Dresses("white", "pant")
+
+print(str(d3))
+
+d3.color = "blue"
+d3.type = "pant"
+
+print(str(d3))
+
+print(d3._Dresses__color)
+print(d3._Dresses__type)
