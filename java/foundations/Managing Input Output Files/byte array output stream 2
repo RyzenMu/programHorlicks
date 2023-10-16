@@ -1,0 +1,25 @@
+import java.io.*;
+
+public class byteArrayOutputStream2
+{
+public static void main(String args[]) throws IOException
+{
+try
+{
+FileOutputStream f = new FileOutputStream("output.txt");
+String s = "Bisleri water bootles since 1969";
+ByteArrayOutputStream b = new ByteArrayOutputStream();
+b.write(s.getBytes());
+b.writeTo(f);
+b.close();
+f.close();
+}
+catch(Exception e)
+{
+System.out.println(e);
+}
+
+}
+
+
+}

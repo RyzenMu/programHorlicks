@@ -1,0 +1,25 @@
+import java.io.*;
+
+public class writingCharacters
+{
+public static void main(String args[])
+{
+File outFile = new File("ouput.dat");
+FileWriter outs = null;
+String s = "Philips iron box costs rs.2000";
+try
+{
+outs = new FileWriter(outFile);
+for(int i = 0; i < s.length(); i++)
+{
+outs.write(s.charAt(i));
+}
+}
+catch(IOException e)
+{
+System.out.println(e);
+}
+finally
+{
+try
+{

@@ -1,0 +1,26 @@
+import java.io.*;
+
+public class bufferedOutputStream
+{
+public static void main(String args[]) throws IOException
+{
+try
+{
+FileOutputStream f1 = new FileOutputStream("output.txt");
+String S1 = " This is a class  in python ";
+BufferedOutputStream f2 = new BufferedOutputStream(f1);
+char arr[] = S1.toCharArray();
+int x = 0;
+while (x < S1.length())
+{
+f2.write(arr[x++]);
+}
+f2.close();
+f1.close();
+}
+catch(Exception e)
+{
+System.out.println(e);
+}
+}
+                    

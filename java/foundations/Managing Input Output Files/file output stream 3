@@ -1,0 +1,26 @@
+import java.io.*;
+
+public class fileOutputStream3
+{
+        public static void main(String args[]) throws IOException
+        {
+                try
+                {
+                FileOutputStream f1 = new FileOutputStream("output.txt");
+                String s1 = "Heoo Java World";
+                char arr[] = s1.toCharArray();
+                System.out.println(arr);
+                int x = 0;
+                        while(x < s1.length())
+                        {
+                                f1.write(arr[x++]);
+                        }
+                f1.close();
+
+                }
+                catch (Exception e)
+                {
+                System.out.println(e);
+                }
+        }
+}

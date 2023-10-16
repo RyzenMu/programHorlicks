@@ -1,0 +1,21 @@
+import java.io.*;
+
+public class appendingToExistingFile
+{
+public static void main(String args[])
+{
+RandomAccessFile file = null;
+try
+{
+file = new RandomAccessFile("input.dat", "rw");
+file.seek(file.length());
+file.writeBytes("Chennai");
+file.close();
+}
+catch (IOException e)
+{
+System.out.println(e);
+}
+}
+
+}

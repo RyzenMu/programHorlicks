@@ -1,0 +1,26 @@
+mport java.io.*;
+
+public class bufferInputStream
+{
+public static void main(String args[]) throws IOException
+{
+try
+{
+FileInputStream f1 = new FileInputStream("input.txt");
+BufferedInputStream f2 = new BufferedInputStream(f1);
+// using available method
+System.out.println("Available Bytes : " + f2.available());
+int x = 0;
+while((x=f2.read())!=-1)
+{
+System.out.print((char)x);
+}
+f2.close();
+}
+catch(Exception e)
+{
+System.out.println(e);
+}
+}
+}
+

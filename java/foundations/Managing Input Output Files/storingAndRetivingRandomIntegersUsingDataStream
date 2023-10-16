@@ -1,0 +1,25 @@
+import java.io.*;
+public class storingAndRetivingRandomIntegersUsingDataStream
+{
+public static void main(String args [])
+{
+DataInputStream dis = null;
+DataOutputStream dos = null;
+File intFile = new File("rand.dat");
+try
+{
+dos = new DataOutputStream(new FileOutputStream(intFile));
+for (int i = 0; i<20; i++)
+dos.writeInt((int) (Math.random()*100));
+}
+catch (IOException ioe)
+{
+System.out.println(ioe.getMessage());
+}
+finally
+{
+try
+{
+dos.close();
+}
+catch (IOException ioe)

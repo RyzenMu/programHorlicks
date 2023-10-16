@@ -1,0 +1,33 @@
+import java.io.*;
+public class copyingBytesFromOneFileToAnother
+{
+public static void main(String args[])
+{
+FileInputStream inFile = null;
+FileOutputStream outFile = null;
+byte byteRead;
+try
+{
+inFile = new FileInputStream("input.dat");
+outFile = new FileOutputStream("output.dat");
+do
+{
+byteRead = (byte) inFile.read();
+outFile.write(byteRead);
+}
+while(byteRead != -1);
+}
+catch(IOException e)
+{
+System.out.println(e);
+}
+finally
+{
+inFile.close();
+outFile.close();
+}
+catch(IOException e)
+{
+}ystem.out.println(e);
+}
+}

@@ -1,0 +1,31 @@
+
+
+import java.io.*;
+
+public class FileOutputStream
+{
+	public static void main(String args[]) throws IOException
+	{
+		try
+		{
+			FileOutputStream f1 = new FileOutputStream("output.txt");
+
+			String s = "I have \n 2 handkerchief \n in my \n Pocket";
+
+			int x = 0;
+
+			char arr[] = s.toCharArray();
+			while (x < s.length())
+			{
+				f1.write(x++);
+			}
+
+			f1.close();
+		}
+		catch(Exception e)
+		{
+			System.out.println(e);
+		}
+	}
+
+}

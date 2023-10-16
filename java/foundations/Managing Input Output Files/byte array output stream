@@ -1,0 +1,25 @@
+import java.io.*;
+
+class byteOutputStream1 {
+
+  public static void main(String[] args) throws IOException {
+    try {
+      // loading a file into f variable
+      FileOutputStream f = new FileOutputStream("output.txt");
+
+      String s = "Scaler Topics";
+
+      // declaring ByteArrayOutputStream
+      ByteArrayOutputStream b1 = new ByteArrayOutputStream();
+
+      // writing a data to "output.txt" file
+      b1.write(s.getBytes());
+      b1.writeTo(f);
+
+      // closing a file
+      b1.close();
+      } catch (Exception e) {
+      // printing exception
+      System.out.println(e);
+    }
+  }

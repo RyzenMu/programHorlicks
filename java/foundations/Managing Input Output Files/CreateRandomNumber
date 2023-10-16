@@ -1,0 +1,10 @@
+public class createRandomNumber
+{
+        public static void main(String args[])
+        {
+                double  ran = Math.random();
+                double number = (ran*1000000);
+                System.out.println(number);
+        }
+
+}

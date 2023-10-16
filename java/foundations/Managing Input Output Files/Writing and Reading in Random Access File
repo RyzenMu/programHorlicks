@@ -1,0 +1,37 @@
+import java.io.*;
+
+public class writingAndReadingUsingARandomAccessFile
+{
+public static void main(String args[])
+{
+RandomAccessFile file = null;
+try
+{
+file = new RandomAccessFile("rand.dat", "rw");
+// writing to the file
+file.writeInt(75);
+file.writeChar('H');
+file.writeDouble(5.984187);
+//goto line
+file.seek(0);
+//read the files
+System.out.println(file.readChar());
+System.out.println(file.readInt());
+System.out.println(file.readDouble());
+// go to line 2
+file.seek(2);
+System.out.println(file.readInt());
+// go to end
+file.seek(file.length());
+file.writeBoolean(false);
+// go to line 4
+file.seek(4);
+System.out.println(file.readBoolean());
+file.close();
+}
+catch (IOException e)
+{
+System.out.println(e);
+}
+}
+}

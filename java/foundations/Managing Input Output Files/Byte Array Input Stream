@@ -1,0 +1,33 @@
+import java.io.*;
+public class byteArrayInputStream
+{
+public static void main(String args[]) throws IOException
+{
+try
+{
+FileInputStream f1 = new FileInputStream("input.txt");
+int x = 0;
+String s = "";
+while((x=f1.read())!=-1)
+{
+s = s + (char)x;
+}
+f1.close();
+//conveting string to array of bytes,
+byte[] b = s.getBytes();
+// declaring byte array input stream
+ByteArrayInputStream b1 = new ByteArrayInputStream(b);
+int y = b1.read();
+while(y!=-1)
+{
+System.out.print((char)y);
+y = b1.read();
+}
+b1.close();
+}
+catch(Exception e)
+{
+System.out.println(e);
+}
+}
+    

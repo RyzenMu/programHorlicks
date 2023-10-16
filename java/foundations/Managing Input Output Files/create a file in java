@@ -1,0 +1,24 @@
+
+import java.io.*;
+
+public class createFile1{
+public static void main(String[] args){
+
+File f1 = new File("javaCreatedFile.txt");
+
+try{
+f1.createNewFile();
+
+
+}catch(IOException e){
+
+System.out.println(e);
+
+
+}
+
+
+
+
+}
+}

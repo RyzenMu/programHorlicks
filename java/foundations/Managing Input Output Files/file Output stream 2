@@ -1,0 +1,21 @@
+import java.io.*;
+
+class fileOutputStream2 {
+
+  public static void main(String[] args) throws IOException {
+    try {
+      // loading a file into f variable
+      FileOutputStream f = new FileOutputStream("output.txt");
+
+      String s = "Scaler Topics";
+      char arr[] = s.toCharArray();
+      // initializing x to 0
+      int x = 0;
+      // while loop untill the end of the string.
+      while (x < s.length()) {
+        // writing a byte into "output.txt" file
+        f.write(arr[x++]);
+      }
+      // closing a file
+      f.close();
+    } catch (Exception e) {
