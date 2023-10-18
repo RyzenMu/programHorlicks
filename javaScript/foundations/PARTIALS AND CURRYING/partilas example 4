@@ -1,0 +1,15 @@
+/ partials with closures
+
+function person(age)
+{
+return function (firstName, lastName)
+                {
+                console.log("The name is : ", firstName+lastName);
+                console.log("The age is :", age);
+                }
+}
+
+const person1 = person(40);
+person1("Vijay", "Antony");
+person1("EEE", "taaa");
+person1("James", "Cross");

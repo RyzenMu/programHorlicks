@@ -1,0 +1,16 @@
+
+// partials example 2
+
+// using bind method
+
+function person(Age, firstName, lastName)
+{
+        console.log("The name is :", firstName+lastName);
+        console.log("The age is ", Age);
+}
+
+const ageOfPerson = person.bind(null, 40);
+
+ageOfPerson("James", "Cross");
+ageOfPerson("Navin", "Reddy");
+ageOfPerson("Alagar", "Samy");

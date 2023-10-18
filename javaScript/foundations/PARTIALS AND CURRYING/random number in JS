@@ -1,0 +1,3 @@
+let ran = Math.random();
+num = ran * 280;
+console.log(Math.ceil(num));

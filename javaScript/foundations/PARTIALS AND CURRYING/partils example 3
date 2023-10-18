@@ -1,0 +1,27 @@
+// paartials with bind
+function javaBook(bookName, pages, price)
+{
+console.log("The name of the book is " + bookName);
+console.log("The number of pages is " , pages);
+console.log("The price of book is ", price);
+}
+
+const jBook = javaBook.bind(null, "McGrawHill");
+jBook(275, 600);
+jBook(500, 790);
+
+//partials with closures
+
+function jaBook(bookName)
+{
+return function (pages, price)
+{
+console.log("The name of the book is " + bookName);
+console.log("The number of pages is " , pages);
+console.log("The price of book is ", price);
+}
+}
+
+const jBookClos = jaBook("MGH");
+jBookClos(1000, 1600);
+jBookClos(750, 1466);

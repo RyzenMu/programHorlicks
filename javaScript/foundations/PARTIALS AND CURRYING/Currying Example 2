@@ -1,0 +1,22 @@
+/ currying example 2
+
+const lunch = ["meals", "parotta"];
+const kolambu =["chettinad chicken", "dal fry"];
+const sidedish = ["omelette", "panner fry"];
+
+function day1(lunch)
+{
+return function(kolambu)
+{
+return function (sidedish)
+{
+console.log("The lunch is " +lunch+" the kolambu is "+kolambu+" the side dish is "+sidedish);
+}
+}
+}
+//composition method
+day1(lunch[0])(kolambu[0])(sidedish[0]);
+//funciton method
+const day2lunch = day1(lunch[1]);
+const day2kolambu = day2lunch(kolambu[1]);
+day2kolambu(sidedish[1]);

@@ -1,0 +1,24 @@
+/ currying example 1
+
+function person(name)
+{
+return function (age)
+{
+return function (sex)
+{
+console.log("The Name of the person is " , name);
+console.log("The age of the person is ", age);
+console.log("The sex of the person is ", sex);
+}
+}
+}
+//composition currying
+person("steve griffith")(44)("MALE");
+//Normal cuurying
+const alex = person("alexanderria");
+const ageOfAlex = alex(70);
+ageOfAlex("Female");
+ageOfAlex("Male");
+const ageOfAlex1 = alex(50);
+ageOfAlex1("Male");
+ageOfAlex1("Femmma");

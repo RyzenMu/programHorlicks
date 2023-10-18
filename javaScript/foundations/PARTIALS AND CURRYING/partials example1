@@ -1,0 +1,30 @@
+// partial function using bind method
+function showStudents(collegeName, studentName, studentAge)
+{
+console.log(collegeName, studentName, studentAge);
+}
+
+showStudents("psg", "anbu", 12);
+
+const college1 = showStudents.bind(null, "ksg");
+
+college1("arivu", 14);
+college1("doc", 15);
+
+const college2 = showStudents.bind(null, "str");
+
+college2("ester", 17);
+college2("Angel", 27);
+
+//partial function using closures
+function showStudentsClosure(collegeName)
+{
+        return function(studentName, studentAge)
+                {
+                        console.log(collegeName, studentName, studentAge);
+                }
+                }
+
+const college3 = showStudentsClosure("hsg");
+college3("sathish", 26);
+college3("chandra", 27);
