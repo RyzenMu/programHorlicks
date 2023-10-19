@@ -1,0 +1,37 @@
+// import modules
+let fs = require('fs');
+
+//writing to a file
+let str = " We cannot paste \n from wikipedia website \n but then only \n can write";
+fs.writeFile("file1.dat", str, function(err)
+{
+console.log("written to file");
+});
+
+//appending to a file
+str = "\nGrowing uo Upsurd \n is a book";
+fs.appendFile("file1.dat", str, function(err)
+{
+console.log("appended to the existing file");
+});
+
+//create another file file2.dat
+str = "";
+fs.writeFile("file2.dat", str, function(err)
+{
+console.log("file2.dat created");
+});
+
+//delete file2.dat
+let delfun = function(err)
+{
+console.log("file2 deleted");
+};
+ fs.unlink("file2.dat", delfun);
+
+
+// read fom file1.dat
+fs.readFile("file1.dat", "utf8", function(err, data)
+{
+console.log(data);
+});

@@ -1,0 +1,34 @@
+
+// import file system module
+const fs = require("node:fs");
+
+// write file synchronusly
+fs.writeFileSync("./file1.dat", "Hello codevolution");
+
+//write file asynchronusly
+
+fs.writeFile("./file2.dat", "Hello codeevolution asynchonously", (error, data) =>
+{
+if (error)
+{
+console.log(error);
+}
+else
+{
+console.log("File2 written asynchoornusly");
+}
+});
+
+// apeending using flag method
+
+fs.writeFile("./file1.dat", "Hello Node js", {flag:'a'}, (error, data) =>
+{
+if (error)
+{
+console.log(error);
+}
+else
+{
+console.log("file1 appended successfully");
+}
+});

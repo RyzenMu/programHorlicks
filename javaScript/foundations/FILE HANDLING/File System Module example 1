@@ -1,0 +1,31 @@
+// file system module
+
+var fs = require('fs');
+
+// fs.readFile(fileName, encoding, callbackFunction)
+
+fs.readFile("text.txt", "utf8", function(err, data)
+{
+console.log(data);
+});
+
+//write to file
+//fs.writeFile(fileName, statements, callback Function)
+fs.writeFile("newText.txt", "console.log(done)", function(err)
+{
+console.log("completed the file system");
+});
+
+//append to file
+//fs.appendFile(fileName, statements, callback Function)
+fs.appendFile("newText.txt", "console.log(anotherDone)", function(err)
+{
+console.log("completed the append file system");
+});
+
+//deleting a file 
+//fs.unlink(fileName, call back function)
+fs.unlink("nayaText.txt", function(err)
+{
+console.log("deleted the file");
+});

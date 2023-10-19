@@ -1,0 +1,34 @@
+// import file system module
+const fs = require("node:fs");
+
+// read a file without utf-8 encoding
+let readFileWithoututf8 = fs.readFileSync("./file1.dat");
+console.log(readFileWithoututf8);
+
+//read a file with utf-8 encoding
+let readFileWithutf8 = fs.readFileSync("./file1.dat", "utf8");
+console.log(readFileWithutf8);
+
+//read a file using readFile method
+fs.readFile("./file1.dat", (error, data) => {
+if (error)
+{
+console.log(error);
+}
+else
+{
+console.log(data);
+}
+});
+
+//read a file using readFile method and utf-8
+fs.readFile("./file1.dat", "utf-8", (error, data) => {
+if (error)
+{
+console.log(error);
+}
+else
+{
+console.log(data);
+}
+});
