@@ -1,0 +1,5 @@
+// JSON parse using require method
+
+const data = require('/home/muruga13in2022/Desktop/file1.json');
+
+console.log(data);

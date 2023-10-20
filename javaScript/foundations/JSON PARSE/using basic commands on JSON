@@ -1,0 +1,25 @@
+/ get JSON file using require method
+
+const data = require("/home/muruga13in2022/Desktop/file1.json");
+
+console.log(data);
+
+//to find length of json file
+console.log("The length of json file is :", data.length);
+
+//using for each to loop for names
+
+data.forEach(function(item)
+{
+let name = item.name;
+console.log(name);
+}
+);
+
+// using forEach to loop for age
+data.forEach(function (item)
+{
+let age = item.age;
+console.log(age);
+}
+);

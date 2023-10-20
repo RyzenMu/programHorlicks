@@ -1,0 +1,16 @@
+/ Json parse using File System Module 1
+const fs = require("node:fs");
+//Read using readFileSync method
+fs.readFile("/home/muruga13in2022/Desktop/file1.json", function(error, data)
+{
+if (error)
+{
+console.log(error);
+}
+else
+{
+data = JSON.parse(data);
+console.log(data);
+console.log("The length of the Json is ", data.length);
+};
+});

@@ -1,0 +1,28 @@
+// import file system module
+const fs = require('fs');
+//reading json file
+const users = require("./file22.json");
+// add new user
+let user = [
+{
+name : "Vinoth",
+age : 28,
+program : ["php", "go", "javascript"]
+},
+{
+name : "Ramu",
+age : 98,
+program : ["rust", "kotlin", "express.js"]
+}
+];
+//adding new data to users object
+users.push(user);
+//writing to a file
+fs.writeFile("./file22.json", JSON.stringify(users), (err) =>
+{
+if (err)
+{
+console.log(err);
+};
+console.log("done writing");
+});

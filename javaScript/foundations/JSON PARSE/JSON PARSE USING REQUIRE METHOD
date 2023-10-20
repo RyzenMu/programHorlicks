@@ -1,0 +1,4 @@
+// Using Require Method
+let data = require('/home/muruga13in2022/Desktop/file1.json');
+
+console.log(data);

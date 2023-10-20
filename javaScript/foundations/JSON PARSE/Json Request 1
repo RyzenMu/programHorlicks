@@ -1,0 +1,10 @@
+// importing request module
+const request = require('request');
+
+request({
+url : "https://v2.jokeapi.dev/joke/Any?safe-mode",
+json : true,
+}, (error, response, body)=>{
+console.log(body);
+console.log(JSON.stringify(body));
+});

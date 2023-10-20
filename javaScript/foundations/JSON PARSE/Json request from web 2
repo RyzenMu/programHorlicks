@@ -1,0 +1,10 @@
+// importing request module
+const request = require('request');
+
+request({
+url : "https://urlhaus-api.abuse.ch/v1/urls/recent/limit/3/",
+json : true,
+}, (error, response, body)=>{
+console.log(body);
+console.log(body.urls[0].id);
+});
