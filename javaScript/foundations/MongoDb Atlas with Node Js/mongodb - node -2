@@ -1,0 +1,21 @@
+// importing moongoose
+
+let mongoose = require('mongoose');
+
+const dburl = "mongodb+srv://muruga13in2022:lhUUMwKsfIHZjf2l@cluster0.gnx2sod.mongodb.net/?retryWrites=true&w=majority";
+
+const connectionParam = 
+{
+useNewUrlParser : true,
+useUnifiedTopology : true,
+
+};
+
+mongoose.connect(dburl, connectionParam).then(()=>
+{
+console.info("connected to the db");
+}
+).catch((e)=>
+{
+console.log(e);
+});

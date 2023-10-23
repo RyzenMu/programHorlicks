@@ -1,0 +1,22 @@
+// importing  monggodb
+
+const {MongoClient} = require('mongodb');
+
+// connection string
+
+const url = "mongodb+srv://muruga13in2022:lhUUMwKsfIHZjf2l@cluster0.gnx2sod.mongodb.net/?retryWrites=true&w=majority";
+
+//conection to mongodb
+
+const connection = new MongoClient(url);
+
+async function getData()
+{
+let result = await connection.connect();
+let db = result.db('Persons');
+let collection = db.collection('Persons_data');
+let response = await collection.find({}).toArray();
+console.log(response);
+}
+
+getData();
