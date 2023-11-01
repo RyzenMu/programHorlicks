@@ -1,65 +1,34 @@
-class Q {
-    int num;
-    boolean valueSet = false;
-    public synchronized void put(int num) {
-        while (valueSet) {
+class Circle {
+    float radius = 0.0f;
+    synchronized void output() {
+        System.out.println("output Method invoked for disp[laying area of circle ...]");
+        if (radius==0.0) {
+            System.out.println("waiting for input radius ...");
             try{wait();}catch(Exception e){}
         }
-        this.num = num;
-        System.out.println("put "+num);
-        valueSet = true;
-        notify();
+        System.out.println("The area of circle is : " +3.14*radius*radius);
     }
-    public synchronized void get() {
-        while (!valueSet) {
-            try{wait();}catch(Exception e){}
-        }
-        System.out.println("get "+num);
-        valueSet = false;
+    synchronized void input(float r) {
+        System.out.println("Inputting Radius...");
+        radius = r;
+        System.out.println("radius value received ... ");
         notify();
     }
 }
-
-class Producer implements Runnable {
-    Q q;
-    public Producer(Q q) { //constructor
-        this.q = q;
-        Thread t = new Thread(this, "Producer");
-        t.start();
-    }
-    public void run() {
-        int i = 0;
-        while (true) {
-            q.put(i++);
-            try{Thread.sleep(1500);}catch(Exception e){}
-        }
-    }
-}
-
-class Consumer implements Runnable {
-    Q q;
-    public Consumer(Q q) {
-        this.q = q;
-        Thread t = new Thread(this, "Consumer");
-        t.start();
-    }
-    public void run() {
-        while (true) {
-            q.get();
-            try{Thread.sleep(3000);}catch(Exception e){};
-        }
-    }
-}
-
-
-
-
 
 public class interThreadCommunication {
     public static void main(String[] args) {
-        Q q = new Q();
-        new Producer(q);
-        new Consumer(q);
-
-    }    
+        final Circle c = new Circle();
+        new Thread() {
+            public void run() {
+                c.output();
+            }
+        }.start();
+        new Thread() {
+            public void run() {
+                c.input(2.5f);
+            }
+        }.start();
+    }
+    
 }
