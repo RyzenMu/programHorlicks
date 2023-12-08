@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>console methods</title>
+</head>
+<body>
+    <script>
+        let myObj = {
+            firstName : "ckert",
+            lastName: "du preez",
+        };
+        console.assert(document.getElementById("demo"), myObj);
+        console.clear();
+        for (i = 0; i <10; i++)
+        {
+            console.count();
+        };
+        console.error("I am a mistake");
+        console.group();
+        console.log('Inside a group');
+        console.info(' i love javascript');
+        function myFunction()
+        {
+            anotherFunction();
+        };
+        function anotherFunction()
+        {
+            console.trace();
+        };
+        console.warn("This is a warning");
+        console.table(["Javascript", "HTM5", "CSS"]);
+    </script>
+</body>
+</html>

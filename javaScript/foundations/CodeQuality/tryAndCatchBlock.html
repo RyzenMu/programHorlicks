@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try and catch block</title>
+</head>
+<body>
+    <h1>Try and catch</h1>
+    <br>
+    <p>Please input a number</p>
+    <input type="text" id="userInput">
+    <br>
+    <button onclick="check()">checking</button>
+    <p id="output"></p>
+    <script>
+        function Check()
+        {
+            let message, x;
+            message = document.getElementById('output');
+            message.innerHTML = '';
+            x = document.getElementById('userInput').value;
+            try
+            {
+                if (x=='') {message.innerHTML="empty"} ;
+                if (isNaN(x)) throw "not a number";
+                if (x>20) throw "too high";
+                if (x < 15) throw "too low";
+                if (x=='') throw "is empty" ;
+                if (isNaN(x)) throw "not a number";
+                if (x>20) throw "too high";
+                if (x < 15) throw "too low";
+            }
+            catch(err)
+            {
+                message.innerHTML = "input" + err;
+            }
+        }
+    </script>
+</body>
+</html>
