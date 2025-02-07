@@ -3,3 +3,5 @@ java - graphics page 290
 javascript - friends with javascript page 248
 
 python - chapter 17 Graphics page 491
+
+Will start again
