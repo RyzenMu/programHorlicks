@@ -1,4 +1,4 @@
-
+//window.history
 let his = window.history;
 
 console.log(his);
