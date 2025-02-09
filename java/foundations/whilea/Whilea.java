@@ -9,6 +9,7 @@ public class Whilea {
         while (s <= 9) {
             System.out.println(s);
             s++;
+            System.out.println(s);
         }
 
 
