@@ -3,7 +3,7 @@ public class Stringa {
 
     public static void main(String[] args) {
 
-        String greeting = "hello";
+        String greeting = "hello world";
         String greeting1 = "WWW";
 
         String greeting3 = greeting + "   " + greeting1 ;
