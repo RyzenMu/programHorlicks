@@ -45,7 +45,7 @@ def play():
     elif user_pick == 'scissors' and comp_pick == "rock":
         Result.set('you loose, computer select rock')
     elif user_pick == "scissors" and comp_pick == "paper":
-        Result.set('you win, computer select paper')
+        Result.set('you win, computer select paper  ')
     else:
         Result.set('Invalid: choose any one -- rock, paper, scissors')
 
