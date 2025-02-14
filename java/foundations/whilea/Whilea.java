@@ -10,6 +10,8 @@ public class Whilea {
             System.out.println(s);
             s++;
             System.out.println(s);
+            ++s
+            System.out.println(s);    
         }
 
 
