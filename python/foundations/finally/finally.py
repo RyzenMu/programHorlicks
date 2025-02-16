@@ -1,7 +1,7 @@
 # finally in python
 
 
-x = "kjh"
+x = "kjhi"
 try:
     if (x > 45):
         print("try block working")
