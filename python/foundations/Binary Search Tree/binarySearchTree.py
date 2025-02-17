@@ -1,3 +1,5 @@
+# binary search tree
+
 from bNode import Node
 class binSearchTree:
     def __init__(self):
