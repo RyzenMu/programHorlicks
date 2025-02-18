@@ -1,4 +1,5 @@
 # dynamic methods
+# dynamic methods
 
 class Student:
     def __init__(self, name, m1, m2):
