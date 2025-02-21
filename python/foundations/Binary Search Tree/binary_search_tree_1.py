@@ -1,3 +1,4 @@
+# binary search tree
 class TreeNode:
         def __init__(self, value):
                 self.right = None
