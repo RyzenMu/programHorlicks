@@ -1,4 +1,5 @@
 #multiple Inheritance
+#multiple inheritance
 
 class A:
     def fun1(self):
