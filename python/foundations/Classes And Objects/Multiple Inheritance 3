@@ -1,5 +1,6 @@
 #Multiple Inheritance
 #Multiple Inheritance
+#Multiple inheritance
 
 class Operation:
     def __init__(self, a, b):
