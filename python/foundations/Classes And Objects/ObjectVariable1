@@ -1,4 +1,5 @@
 #Object variables in python
+#Object variable in python
 
 class Staff:
     def __init__(self, name, id):
