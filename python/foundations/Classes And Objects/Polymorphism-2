@@ -1,3 +1,5 @@
+#Polymorphism 2
+
 class Cycle:
     def speed(self):
         print(10)
