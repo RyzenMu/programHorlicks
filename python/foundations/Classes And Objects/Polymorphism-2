@@ -1,4 +1,5 @@
 #Polymorphism 2
+#Polymorphism 2
 
 class Cycle:
     def speed(self):
