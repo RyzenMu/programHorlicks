@@ -1,4 +1,5 @@
 #private methods inside a class
+#private methods inside a class
 
 class Place(object):
     def __init__(self, name, price):
