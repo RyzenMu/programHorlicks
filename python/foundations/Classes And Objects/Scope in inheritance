@@ -1,4 +1,6 @@
 #Scope in Inheritance
+#Scope in Inheritance
+
 
 class C1:
     def __init__(self):
