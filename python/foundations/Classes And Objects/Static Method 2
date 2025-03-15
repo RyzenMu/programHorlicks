@@ -1,4 +1,5 @@
 # static methods 2
+# static methods 2
 
 class Tablets:
     counter = 0
