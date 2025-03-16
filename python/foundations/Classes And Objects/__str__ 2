@@ -1,4 +1,5 @@
 #special method __str__ - 2
+#special method __str__ - 2
 
 class Bag:
     def __init__(self, color, weight):
