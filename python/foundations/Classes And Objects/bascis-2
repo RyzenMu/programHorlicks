@@ -1,4 +1,5 @@
 // classes and objects i python example 2
+// classes and objects in python example 2
 
 class Person:
     def __init__(self, name, age, gender):
