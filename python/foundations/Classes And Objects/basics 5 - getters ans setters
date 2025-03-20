@@ -1,4 +1,6 @@
 // classes in python
+// classes in python
+// getters and setters
 
 class Person:
   def __init__(self, name, DOB, address):
