@@ -1,4 +1,5 @@
 // other way to classes and objects
+// other way to classes and objects
 
 class Person:
     def __init__(self, name, age, gender):
