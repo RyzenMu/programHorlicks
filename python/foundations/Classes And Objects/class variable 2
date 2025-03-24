@@ -1,4 +1,5 @@
 # class variable example 2
+# class variable example 2
 
 class Bus:
     price = 100
