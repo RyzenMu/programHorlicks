@@ -1,3 +1,5 @@
+# private attributes inside a class
+
 class Dresses(object):
     def __init__(self, color, type):
         self.__color = color
