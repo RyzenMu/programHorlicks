@@ -1,4 +1,6 @@
 # private methods inside a class
+# private methods inside a class
+
 
 class Snacks(object):
     def __init__(self, name, price):
