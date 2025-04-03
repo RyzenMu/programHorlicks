@@ -1,3 +1,5 @@
+# Special method __str__
+
 class Phone:
     def __init__(self, name, price):
         self.name = name
