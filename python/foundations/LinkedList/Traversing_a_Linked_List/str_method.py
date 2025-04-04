@@ -1,3 +1,5 @@
+# Traversing a linkedlist
+
 def __str__(self):
     '''
     Objective : To return string representation of an object of type LinkedList
