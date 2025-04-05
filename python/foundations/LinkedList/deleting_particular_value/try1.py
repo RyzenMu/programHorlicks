@@ -1,3 +1,5 @@
+# deleting particular value
+
 class Node:
     def __init__(self, value):
         self.data = value 
