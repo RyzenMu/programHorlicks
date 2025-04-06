@@ -1,3 +1,4 @@
+# deleting a particular value
 from singly_linked_list import try1
 import linked_list_1
 import linked_list_2
