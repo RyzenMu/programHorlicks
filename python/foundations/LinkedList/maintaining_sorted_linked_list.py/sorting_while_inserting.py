@@ -1,3 +1,6 @@
+# maintaining sorted linked list
+# sorting while inserting
+
 from node import Node
 
 class LinkedList:
