@@ -1,4 +1,5 @@
 #dictionary is a unordered sequence of key-value pairs
+# dictionary is a unordered sequence of key-value pairs
 
 month = {}
 month[1] = "jan"
