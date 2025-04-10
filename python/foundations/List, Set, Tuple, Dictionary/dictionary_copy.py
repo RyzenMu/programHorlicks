@@ -1,4 +1,5 @@
 # to create a shallow copy , we use copy method
+# to create a shallow copy, we use copy method
 
 passwords = {
     'Ram' : 'aka606',
