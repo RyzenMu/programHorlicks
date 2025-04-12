@@ -1,4 +1,5 @@
 # we may remove key-value pair using del operator
+# we may remove key-value pair using del operator
 
 winter = {
     11 : 'November', 
