@@ -1,6 +1,7 @@
 '''
 the function get is used to extract the value corresponding to a given example
 dictionary function
+the function get is used to extract the value corresponding to a given example
 '''
 
 passwords = {
