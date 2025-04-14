@@ -1,3 +1,5 @@
+#dictionary operations
+
 digits = {
     0 : 'zero',
     1 : 'one',
