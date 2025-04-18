@@ -1,4 +1,5 @@
 # function list takes an argument and splits into a list
+# function list
 
 name = 'muruganantham'
 list(name)
