@@ -1,4 +1,5 @@
 # The function tuple is used to convert a sequence to a tuple
+# The function tuple is used to convert a sequence to a tuple
 
 vowels = "aeiou"
 t1 = tuple(vowels)
