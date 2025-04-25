@@ -1,3 +1,5 @@
+# list as arguments
+
 def list_update(a, i, value):
     a[i] = value
 
