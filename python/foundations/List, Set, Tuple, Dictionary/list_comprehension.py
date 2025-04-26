@@ -1,4 +1,5 @@
 # list of cubes using normal for loop
+# list of cubes using normal for loop
 cub = []
 for i in range(1, 10):
     res = i ** 3
