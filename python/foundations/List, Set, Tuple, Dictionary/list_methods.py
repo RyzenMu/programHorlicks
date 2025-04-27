@@ -1,3 +1,5 @@
+#list methods
+
 # function append
 # function append inserts value at the end
 list = [10, 20, 30, 40]
