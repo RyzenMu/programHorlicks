@@ -1,4 +1,5 @@
 #map
+#map
 # result = map(function, itrebale object)
 # lambda arguments : expression
 
