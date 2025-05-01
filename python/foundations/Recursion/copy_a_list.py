@@ -1,3 +1,5 @@
+# copy a list
+
 def copy(lst1, lst2=[]):
     if lst1 == []:
         return lst2
