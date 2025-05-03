@@ -1,3 +1,5 @@
+# list permutation
+
 def permute(lst1, lst2=[], k=0, pos=0):
     lst2.insert(pos, lst1[k])
     if len(lst2) == len(lst1):
