@@ -1,3 +1,5 @@
+# eight queens problem
+
 class Queens:
     def __init__(self, size):
         self.boardsize = size
