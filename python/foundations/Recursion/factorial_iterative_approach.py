@@ -1,3 +1,4 @@
+#factorial iterative approach
 def factorial(n):
     fact = 1
     assert n >= 0
