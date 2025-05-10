@@ -1,3 +1,5 @@
+#Recursion
+
 def flatten(lst1, lst2 = []):
     for element in lst1:
         if type(element) != list:
