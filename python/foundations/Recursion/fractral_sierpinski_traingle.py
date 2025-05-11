@@ -1,3 +1,4 @@
+#fractal sierpinski triangle 
 from turtle import *
 def createTriangle(points, color):
     fillcolor(color)
