@@ -1,3 +1,4 @@
+#hanoi tower
 def hanoi(n, source, spare, target):
     if n == 1:
         print('Move a dist from', source, 'to', target)
