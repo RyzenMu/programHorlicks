@@ -1,3 +1,4 @@
+#knight tower
 class Knight:
     def __init__(self, size):
         self.boardsize = size
