@@ -1,3 +1,4 @@
+# length of a string -- recursively
 def length(str1):
     if str1 == '':
         return 0
