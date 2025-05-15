@@ -1,3 +1,4 @@
+#palindrome
 def isPalindrome(str1):
     if str1 == '':
         return True
