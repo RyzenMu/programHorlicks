@@ -1,3 +1,4 @@
+#pattern with recursion
 import matplotlib.pyplot as plt
 
 def square(x, y):
