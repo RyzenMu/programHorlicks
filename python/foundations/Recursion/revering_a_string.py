@@ -1,3 +1,4 @@
+#revering a string
 def reverse(str1):
     if str1 == '':
         return str1
