@@ -1,3 +1,4 @@
+#stable marriage
 class stableMarriage:
     def __init__(self, n, menPref, womenPref) -> None:
         self.count = n
