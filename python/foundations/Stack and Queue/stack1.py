@@ -1,4 +1,5 @@
 #LIFO -last in First Out
+#LIFO - last in First Out
 
 class Stack:
         def __init__(self):
