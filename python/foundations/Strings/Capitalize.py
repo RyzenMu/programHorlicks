@@ -1,3 +1,4 @@
+# String methods
 str = "more than 280 people are. killed and over 900 others injured in a collision between two passenger trains and a goods train in Balasore, India."
 
 Cap = str.capitalize()
