@@ -1,4 +1,5 @@
 #find returns the index of first occurance 
+#find returns the index of first occurance
 
 str = "red, blue, green, green, yellow, black"
 
