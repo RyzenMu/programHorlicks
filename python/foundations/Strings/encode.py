@@ -1,6 +1,7 @@
 # encode
 
 # sometimes we need to transform data from one format to another for the sake of compatibility
+# sometimes we need to tranform data from one format to another for the sake of compatibility
 
 str = 'message'
 
