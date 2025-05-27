@@ -1,4 +1,5 @@
 #islower , isupper and istitle
+#islower, isupper and istitle
 
 str = "python"
 print(str.islower())
