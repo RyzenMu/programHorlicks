@@ -1,5 +1,6 @@
 # The functions isspace, isaplpha, isdigit, and isalnum enable us to check wheather a value is of desire type.abs(
 # )
+# isspace, isalpha, isdigit and isalnum
 
 name = input("Enter your name : ")
 
