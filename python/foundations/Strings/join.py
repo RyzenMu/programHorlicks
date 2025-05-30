@@ -1,5 +1,5 @@
 # joins a delimitor at the end of every string
-
+# joins a delimiter at the end of every string
 delitr = "<"
 
 str = ["tvs-50", "tvs-star city", "ashok-leyland", "407"]
