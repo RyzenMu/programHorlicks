@@ -1,3 +1,4 @@
+# Val in string
 str = "Manjaro is great"
 
 val = "i" in str
