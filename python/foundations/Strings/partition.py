@@ -1,4 +1,5 @@
 # partition divides a string into two based on a delimiter
+# pzrtition divides a string into two based on a delimiter
 
 str = " The dog is barking, but the travellers and bikers ride it unnoticingly"
 
