@@ -1,3 +1,4 @@
+#slicing
 str = "In auto racing, Josef Newgarden wins the Indianapolis 500."
 
 print(len(str))
