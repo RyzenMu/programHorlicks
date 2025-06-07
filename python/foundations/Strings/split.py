@@ -1,4 +1,5 @@
 # the function splits enables us to split the string into partitions based on a delimiter
+# the function splits enales us to split the string into partitions based on delimiter
 
 str = " toyota, ford, maruthi, hyundai, kia"
 
