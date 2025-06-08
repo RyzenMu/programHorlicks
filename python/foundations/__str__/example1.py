@@ -1,4 +1,5 @@
 # string method in python
+#string method in python
 
 class Hotel:
     def __init__(self, name, rooms):
