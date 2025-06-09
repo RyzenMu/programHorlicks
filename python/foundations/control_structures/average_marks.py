@@ -1,3 +1,5 @@
+# avg marks
+
 def main():
     n = int(input('Enter the total subjects : '))
     
