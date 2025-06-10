@@ -1,4 +1,4 @@
-
+# formatted string
 
 print('%5d' % 88)
 
