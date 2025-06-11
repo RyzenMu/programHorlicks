@@ -1,4 +1,4 @@
-
+# if condition 
 
 def moderate(marks, passMarks):
     if marks == passMarks-1 or marks == passMarks-2:
