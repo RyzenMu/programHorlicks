@@ -1,3 +1,5 @@
+#delete
+
 x = 42
 
 del x
