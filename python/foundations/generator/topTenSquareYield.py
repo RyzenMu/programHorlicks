@@ -1,5 +1,5 @@
 # printing top ten perfect square values using yield
-
+# printing top ten perfect square values using yield
 def sec():
     for k in range(11, 21):
         yield k*k
