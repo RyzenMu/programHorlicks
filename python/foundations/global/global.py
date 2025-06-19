@@ -1,3 +1,5 @@
+# Gloal variale
+
 inner = 5
 def func():
     global inner
