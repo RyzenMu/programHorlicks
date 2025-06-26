@@ -1,3 +1,5 @@
+# sine cosine curve
+
 import matplotlib.pyplot as plt
 
 import math
