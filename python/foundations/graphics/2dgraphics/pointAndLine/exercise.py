@@ -1,3 +1,5 @@
+#practice 1 
+
 import matplotlib.pyplot as plt
 
 def plotFunctions(a, b, step):
