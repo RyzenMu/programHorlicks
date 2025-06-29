@@ -1,3 +1,4 @@
+#histogram
 from matplotlib import pyplot as plt
 
 def plotHistogram(data):
