@@ -1,3 +1,4 @@
+#point and line
 from matplotlib import pyplot as plt
 
 x = [345, 67, 98, 35]
