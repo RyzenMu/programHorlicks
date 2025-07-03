@@ -1,3 +1,4 @@
+#multiple fultions 
 from matplotlib import pyplot as plt
 
 
