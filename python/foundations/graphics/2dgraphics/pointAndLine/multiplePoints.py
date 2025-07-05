@@ -1,3 +1,4 @@
+# multiple ponts
 from matplotlib import pyplot as plt
 
 # Multiple points using variables/arrays
