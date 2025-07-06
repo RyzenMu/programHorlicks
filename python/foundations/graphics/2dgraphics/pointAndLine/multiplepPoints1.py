@@ -1,3 +1,4 @@
+# multiple points
 import matplotlib.pyplot as plt
 
 x= [4, 2, 98, 4, 23, 4, 76]
