@@ -1,4 +1,5 @@
 #circle is divided into sectors called wedges
+# circle is divided into sectors called wedges
 
 import matplotlib.pyplot as plt
 
