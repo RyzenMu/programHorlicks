@@ -1,3 +1,5 @@
+# plot Attributes 
+
 from matplotlib import pyplot as plt
 
 x = [2, 4, 5, 1, 5]
