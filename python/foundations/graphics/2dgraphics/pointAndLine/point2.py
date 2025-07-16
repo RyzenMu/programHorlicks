@@ -1,3 +1,4 @@
+#point2.py
 from matplotlib import pyplot as plt
 
 plt.plot(3, 6, 'ro')
