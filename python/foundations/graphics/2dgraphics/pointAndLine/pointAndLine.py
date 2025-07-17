@@ -1,3 +1,4 @@
+#point and line
 import matplotlib.pyplot as plt
 
 plt.plot(3, 6, 'ro')
