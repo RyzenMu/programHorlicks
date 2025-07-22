@@ -1,3 +1,4 @@
+#bouncing ball
 from vpython import *
 
 ball = sphere(pos=vector(0, 10, 0), radius=1, color=color.red)
