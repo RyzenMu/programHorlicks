@@ -2,6 +2,7 @@
 # Important keywords in python
 #important keywords in python
 #1. Continue
+#only 60 keywords in c++
 
 for m in range(21, 55):
     if m % 2 == 0 or m % 3 == 0:
