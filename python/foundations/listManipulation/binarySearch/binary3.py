@@ -1,3 +1,4 @@
+#binary search 3
 pos = -1
 
 def search(list, n):
