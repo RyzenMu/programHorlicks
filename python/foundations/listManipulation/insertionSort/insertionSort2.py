@@ -1,3 +1,6 @@
+
+
+#insertion sort
 def insertion_sort(elements):
 	for i in range (1, len(elements)):
 		anchor = elements[i]
