@@ -1,4 +1,4 @@
-#insertion sort
+#insertion sort without extra array
 list = [3, 5, 7, 6, 1, 0]
 
 for b in range (len(list)-1):
