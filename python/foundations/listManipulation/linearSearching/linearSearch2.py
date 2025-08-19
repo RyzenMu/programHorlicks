@@ -1,3 +1,5 @@
+
+#liner search 2
 def search(list1, key):
 	list2 = []
 	flag = False
