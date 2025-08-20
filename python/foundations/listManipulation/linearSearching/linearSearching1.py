@@ -1,3 +1,4 @@
+#linear searching 1
 def linear_Search(list, number):
 	store = 0
 	for m in range(len(list)):
