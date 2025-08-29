@@ -1,3 +1,4 @@
+#quick sort 1
 a = [9, 5, 7, 2, 8, 6, 1, 4, 6]
 
 def quick(array):
