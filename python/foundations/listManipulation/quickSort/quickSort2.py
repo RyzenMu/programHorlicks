@@ -1,3 +1,5 @@
+
+#quick sort 2.py
 def quick_sort(sequence):
 	length = len(sequence)
 	if length <=1:
