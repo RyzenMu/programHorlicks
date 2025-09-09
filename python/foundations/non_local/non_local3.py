@@ -1,4 +1,5 @@
 #non local variable
+#non local variable
 
 def outer_function():
     variable_1 = 12
