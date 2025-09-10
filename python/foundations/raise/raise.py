@@ -1,4 +1,5 @@
 # raise keyword
+#raise Exception
 
 x = -10
 
