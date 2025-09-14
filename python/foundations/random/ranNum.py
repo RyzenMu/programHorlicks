@@ -1,4 +1,5 @@
-# rand numimport random
+# rand num
+import random
 
 
 number = random.randint(1, 570)
