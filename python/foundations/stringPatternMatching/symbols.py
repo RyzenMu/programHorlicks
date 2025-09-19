@@ -1,4 +1,4 @@
-"""
+"""symbols
 * - zero or more ocuurances of the preceding pattern
 . - exactly one arbitrary character excluding new line
 ? - zero or one occurances of the preceding pattern
