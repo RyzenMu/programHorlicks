@@ -1,4 +1,5 @@
 # counting the number of common characters in a pair of strings
+# counting the number of common characters
 
 def nCommonChars(str1, str2):
     temp1 = str1.lower()
