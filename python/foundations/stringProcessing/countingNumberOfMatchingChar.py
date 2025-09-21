@@ -1,4 +1,4 @@
-
+# counting number of matching characters
 # counting number of matching characters in two strings
 
 def nMatchedChar(str1, str2):
