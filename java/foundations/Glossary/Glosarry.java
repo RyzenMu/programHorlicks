@@ -1,4 +1,5 @@
 // package java.foundations.Glossary;
+// glossary
 
 public class Glosarry {
 
