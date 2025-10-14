@@ -1,4 +1,4 @@
-/**
+/** moduleInfo.java
  * 
  */
 /**
