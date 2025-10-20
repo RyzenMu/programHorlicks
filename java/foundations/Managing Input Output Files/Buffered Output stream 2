@@ -1,3 +1,5 @@
+//buffered output stream 2
+
 import java.io.*;
 
 public class bufferedOutputStream
