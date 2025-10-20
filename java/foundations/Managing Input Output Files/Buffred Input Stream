@@ -1,4 +1,5 @@
-mport java.io.*;
+// buffered input stream
+import java.io.*;
 
 public class bufferInputStream
 {
