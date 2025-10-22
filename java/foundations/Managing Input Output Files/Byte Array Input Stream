@@ -1,3 +1,4 @@
+// byte array input stream
 import java.io.*;
 public class byteArrayInputStream
 {
