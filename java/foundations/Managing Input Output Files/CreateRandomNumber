@@ -1,3 +1,4 @@
+// create random number
 public class createRandomNumber
 {
         public static void main(String args[])
