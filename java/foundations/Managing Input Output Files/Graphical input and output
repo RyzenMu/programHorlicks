@@ -1,3 +1,4 @@
+// graphical input and output
 import javax.swing.JOptionPane;
 public class garphicalio {
 
