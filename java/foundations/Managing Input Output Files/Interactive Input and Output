@@ -1,4 +1,5 @@
 // creating files interactively from keyboard input
+// interactive input and output
 import java.util.*;
 // for using string tockenizer class
 import java.io.*;
