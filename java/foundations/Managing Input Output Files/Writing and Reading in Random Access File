@@ -1,3 +1,4 @@
+// writing and reading using Random Access File
 import java.io.*;
 
 public class writingAndReadingUsingARandomAccessFile
