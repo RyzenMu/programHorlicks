@@ -1,4 +1,5 @@
-mport java.io.*;
+//buffered otput stra
+import java.io.*;
 
 class bufferedOutputStream1 {
 
