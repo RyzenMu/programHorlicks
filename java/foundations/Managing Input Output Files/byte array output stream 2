@@ -1,3 +1,4 @@
+//byte srray output stream
 import java.io.*;
 
 public class byteArrayOutputStream2
