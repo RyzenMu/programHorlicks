@@ -1,4 +1,5 @@
-mport java.io.*;
+// Concatenation and buffering files
+import java.io.*;
 public class concatenationAndBufferingFilesUsingSequenceInputStream
 {
 public static void main(String args[]) throws IOException
