@@ -1,4 +1,4 @@
-
+// create a file in java
 import java.io.*;
 
 public class createFile1{
