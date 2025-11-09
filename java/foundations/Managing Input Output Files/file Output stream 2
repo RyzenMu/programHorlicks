@@ -1,3 +1,4 @@
+// file output stream 
 import java.io.*;
 
 class fileOutputStream2 {
