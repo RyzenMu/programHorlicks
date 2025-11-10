@@ -1,3 +1,4 @@
+// read byte from file
 import java.io.*;
 public class readByteFromFile
 {
