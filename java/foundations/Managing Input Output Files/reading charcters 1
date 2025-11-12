@@ -1,4 +1,5 @@
 // Importing input output classes
+// reading characters 1
 import java.io.*;
 
 // Main class
