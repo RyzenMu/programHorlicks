@@ -1,4 +1,4 @@
-
+// random.java
 
 public class Random {
 
