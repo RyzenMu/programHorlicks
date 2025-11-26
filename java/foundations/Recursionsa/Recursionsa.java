@@ -1,4 +1,4 @@
-
+//recursion loan
 public class Recursionsa {
 
     static int fac(int w){
