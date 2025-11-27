@@ -1,3 +1,4 @@
+// global variable using static
 public class globalVariableUsingStatic {
 
     static String firstMessage = " this is a global variable";
