@@ -1,4 +1,4 @@
-
+// scope
 public class scopea {
 
     class Reference {
