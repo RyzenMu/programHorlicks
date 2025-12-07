@@ -1,3 +1,5 @@
+
+//applet graphics
 import java.awt.*;
 import java.applet.*;
 import javax.swing.*;
