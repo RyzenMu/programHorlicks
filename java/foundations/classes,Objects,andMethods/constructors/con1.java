@@ -1,3 +1,4 @@
+// constructor 1 
 public class con1 {
     public static void main(String[] args){
         Bed r67 = new Bed(1, "Green");
