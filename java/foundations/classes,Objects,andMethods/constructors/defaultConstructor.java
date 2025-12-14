@@ -1,3 +1,5 @@
+
+//default constructor
 public class defaultConstructor {
 
     public static void main(String args[]){
