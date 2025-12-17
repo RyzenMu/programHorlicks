@@ -1,4 +1,4 @@
-
+// static members
 public class a1 {
     public static void main(String args[]){
         Bus.busNo = 128;
