@@ -1,3 +1,4 @@
+// assigning reference to same objects
 public class AssigningReferenceToSameObjects {
     public static void main(String[] args)
     {
