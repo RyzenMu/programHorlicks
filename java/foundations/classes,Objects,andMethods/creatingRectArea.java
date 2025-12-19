@@ -1,3 +1,4 @@
+//Creating Rect Area .java
 class Rect
 {
     int width;
