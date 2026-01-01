@@ -1,3 +1,4 @@
+//inheritance
 class Room1 {
     float length;
     float breadth;
