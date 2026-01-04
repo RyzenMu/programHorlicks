@@ -1,3 +1,5 @@
+
+//inheritance
 class Frame{
     int length;
     int width;
