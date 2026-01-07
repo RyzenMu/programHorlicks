@@ -1,3 +1,4 @@
+//multi-level inheritance
 class Animals{
     String name;
     int life;
