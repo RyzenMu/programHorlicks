@@ -1,3 +1,5 @@
+
+// Abstract class java
 public class abstractClass1 {
     public static void main(String args[]){
         funk1();
