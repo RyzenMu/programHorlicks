@@ -1,3 +1,4 @@
+//abstract class
 public class abstractClass3 {
     public static void main(String args[]){
         // Area a1 = new Area(2, 4); Cannot instantiate a new abstract class
