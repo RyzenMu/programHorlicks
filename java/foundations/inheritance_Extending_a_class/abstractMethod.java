@@ -1,3 +1,5 @@
+
+//abstract method in java
 public class abstractMethod {
     public static void main(String args[]){
         Pant p1 = new Pant(1000, 32, "black");
