@@ -1,3 +1,4 @@
+// final class
 final class A{
     int variable1 = 4;
     void print(){
