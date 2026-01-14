@@ -1,3 +1,4 @@
+// hierarchical inheritance
 class Account{
     int accountNumber;
     String name;
