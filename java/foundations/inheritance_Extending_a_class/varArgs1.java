@@ -1,3 +1,4 @@
+//varargs
 public class varArgs1 {
     public static void main(String args[]){
         bb b1 = new bb();
