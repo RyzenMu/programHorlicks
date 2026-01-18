@@ -1,3 +1,4 @@
+// varargs 2
 public class varArgs2 {
     varArgs2(String... person){
         for(String name : person){
