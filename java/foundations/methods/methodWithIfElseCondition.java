@@ -1,3 +1,4 @@
+//method with else condition
 import java.io.Console;
 
 public class methodWithIfElseCondition {
