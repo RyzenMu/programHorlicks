@@ -1,3 +1,4 @@
+// multiple parameters
 public class multipleParameters {
 
     static void myMethod(String fname, int age){
