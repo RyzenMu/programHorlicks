@@ -1,3 +1,4 @@
+//[arameters in methods
 public class parametersInMethods {
 
     static void myMethod(String fname){
