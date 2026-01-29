@@ -1,3 +1,4 @@
+//return vakues
 public class returnValues {
 
     static int myMethod(int x){
