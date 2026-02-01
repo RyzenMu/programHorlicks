@@ -1,3 +1,4 @@
+// store result in a variable
 public class storeResultInaVariable {
 
     static int myMethod(int x, int y){
