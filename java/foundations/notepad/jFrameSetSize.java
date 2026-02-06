@@ -1,3 +1,4 @@
+//jframe setsize
 import javax.swing.JFrame;
 
 public class jFrameSetSize{
