@@ -1,3 +1,4 @@
+// conditional operator 
 public class conditionalOperator {
     public static void main(String args[]){
         // (a>b) ? "statement1" : "statement2"
