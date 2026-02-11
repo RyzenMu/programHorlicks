@@ -1,4 +1,4 @@
-
+//generic class
 class myGeneric<T1> {
     int val = 97;
     private T1 t1;
