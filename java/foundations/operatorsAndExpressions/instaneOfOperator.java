@@ -1,3 +1,4 @@
+//instance of objects
 class Class1 {
     int a;
     Class1(int a){
