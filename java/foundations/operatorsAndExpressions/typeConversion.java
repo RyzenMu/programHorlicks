@@ -1,3 +1,4 @@
+// type conversion
 public class typeConversion {
     public static void main(String args[]){
         int maleVoters = 30000000, femaleVoters = 32600000;
