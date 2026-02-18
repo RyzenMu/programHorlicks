@@ -1,3 +1,4 @@
+//type conversion
 public class typeConversion1 {
     public static void main(String args[]){
         float sum;
