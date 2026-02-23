@@ -1,4 +1,4 @@
-
+// while loop
 
 public class Whilea {
 
