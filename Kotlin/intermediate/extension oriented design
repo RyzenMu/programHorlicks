@@ -1,0 +1,19 @@
+class HttpClient {
+    fun request(method: String, url: String, headers: Map<String, String>): HttpResponse {
+        println("Requesting $method to $url with headers: $headers")
+        return HttpResponse("Response from $url")
+    }
+}
+
+fun HttpClient.get(url: String): HttpResponse = request("GET", url, emptyMap())
+
+fun main() {
+    val client = HttpClient()
+
+    // Making a GET request using request() directly
+    val getResponseWithMember = client.request("GET", "https://example.com", emptyMap())
+
+    // Making a GET request using the get() extension function
+    // The client instance is the receiver
+    val getResponseWithExtension = client.get("https://example.com")
+}
