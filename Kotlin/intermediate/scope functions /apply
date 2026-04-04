@@ -1,0 +1,12 @@
+val client = Client().apply {
+    token = "asdf"
+    connect()
+    // connected!
+    authenticate()
+    // authenticated!
+}
+
+fun main() {
+    client.getData()
+    // getting data!
+}
