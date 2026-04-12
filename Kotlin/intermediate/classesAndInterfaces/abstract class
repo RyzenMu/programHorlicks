@@ -1,0 +1,9 @@
+abstract class Product(val name: String, var price: Double) {
+    // Abstract property for the product category
+    abstract val category: String
+
+    // A function that can be shared by all products
+    fun productInfo(): String {
+        return "Product: $name, Category: $category, Price: $price"
+    }
+}
