@@ -1,0 +1,3 @@
+// A class that has only one instance that is easily accessible is called a singleton.
+
+object DoAuth {}
