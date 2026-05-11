@@ -1,0 +1,26 @@
+// Define interfaces
+interface EcoFriendly {
+    val emissionLevel: String
+}
+
+interface ElectricVehicle {
+    val batteryCapacity: Double
+}
+
+// Parent class
+open class Vehicle(val make: String, val model: String)
+
+// Child class
+open class Car(make: String, model: String, val numberOfDoors: Int) : Vehicle(make, model)
+
+// New class that inherits from Car and implements two interfaces
+class ElectricCar(
+    make: String,
+    model: String,
+    numberOfDoors: Int,
+    val capacity: Double,
+    val emission: String
+) : Car(make, model, numberOfDoors), EcoFriendly, ElectricVehicle {
+    override val batteryCapacity: Double = capacity
+    override val emissionLevel: String = emission
+}
