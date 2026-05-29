@@ -1,0 +1,21 @@
+val a: String? = null
+val b = a as String
+
+// Triggers an error at runtime
+print(b)
+
+
+--------------------------------------------
+
+val a: String? = null
+val b = a as? String
+
+// Returns null value
+print(b)
+// null
+
+-------------------------------------------..
+
+fun calculateTotalStringLength(items: List<Any>): Int {
+    return items.sumOf { (it as? String)?.length ?: 0 }
+}
