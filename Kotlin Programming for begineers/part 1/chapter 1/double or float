@@ -1,0 +1,2 @@
+val price: Double = 19.99
+val pi: Double = 3.14159
