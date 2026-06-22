@@ -1,0 +1,2 @@
+val isRaining: Boolean = false 
+val isSunny: Boolean = true
