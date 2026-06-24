@@ -1,0 +1,2 @@
+val grade: Char = 'A' 
+val symbol: Char = '$'
