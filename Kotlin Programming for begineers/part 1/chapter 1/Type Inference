@@ -1,0 +1,5 @@
+You might have noticed that in our earlier examples, 
+we did not write the type name. We wrote 
+val score = 10 instead of val score: Int = 10.
+This is called Type Inference. Kotlin is smart enough to look at the data you put in the box and guess what type of box it needs. ●     
+If you type 10, Kotlin knows it is an Int.
