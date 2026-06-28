@@ -1,0 +1,5 @@
+fun main() { 
+val apples = 5
+val oranges = 10 
+println("I have $apples apples and $oranges oranges.")
+println("Total fruit: ${apples + oranges}") }
