@@ -1,0 +1,6 @@
+fun main() {
+val firstName = "Sarah"
+val lastName = "Connor"
+val age = 29 // Using String Templates
+println("Client Name: $firstName $lastName")
+println("Age: $age") } Output: Client Name: Sarah Connor Age: 29
