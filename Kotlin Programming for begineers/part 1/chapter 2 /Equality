@@ -1,0 +1,6 @@
+fun main() {
+    val myAge = 30
+    val yourAge = 30
+    val isSameAge = (myAge == yourAge)
+     println("Are we the same age? $isSameAge")
+}
