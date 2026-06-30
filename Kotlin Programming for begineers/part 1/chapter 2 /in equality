@@ -1,0 +1,6 @@
+fun main() {
+    val secretPin = 1234
+    val enteredPin = 9999
+    val isAccessDenied = (secretPin != enteredPin)
+     println("Is access denied? $isAccessDenied")
+}
