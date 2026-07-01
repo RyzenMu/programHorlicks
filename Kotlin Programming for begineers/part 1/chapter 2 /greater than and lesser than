@@ -1,0 +1,8 @@
+fun main() {
+    val currentTemperature = 85
+    val freezingPoint = 32
+     val isFreezing = currentTemperature < freezingPoint
+    val isHot = currentTemperature > 80
+     println("Is it freezing? $isFreezing")
+    println("Is it hot? $isHot")
+}
