@@ -1,0 +1,6 @@
+fun main() {
+    val votingAge = 18
+    val myAge = 18
+     val canVote = myAge >= votingAge
+    println("Can I vote? $canVote")
+}
