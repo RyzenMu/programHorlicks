@@ -1,0 +1,6 @@
+fun main() {
+    val hasIdBadge = true
+    val hasFingerprint = false
+     val accessGranted = hasIdBadge && hasFingerprint
+    println("Access Granted: $accessGranted")
+}
