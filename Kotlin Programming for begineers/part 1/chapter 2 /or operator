@@ -1,0 +1,6 @@
+fun main() {
+    val isSaturday = true
+    val isSunday = false
+     val isWeekend = isSaturday || isSunday
+    println("Is it the weekend? $isWeekend")
+}
