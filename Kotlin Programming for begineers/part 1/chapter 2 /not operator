@@ -1,0 +1,5 @@
+fun main() {
+    val isLightsOn = true
+    val isLightsOff = !isLightsOn
+     println("Are lights off? $isLightsOff")
+}
