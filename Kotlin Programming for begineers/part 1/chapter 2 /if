@@ -1,0 +1,8 @@
+fun main() {
+    val score = 1500
+     if (score > 1000) {
+        println("New High Score!")
+        println("Congratulations!")
+    }
+     println("Game Over")
+}
