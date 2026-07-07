@@ -1,0 +1,11 @@
+fun main() {
+    val accountBalance = 10.0
+    val price = 50.0
+     if (accountBalance >= price) {
+        println("Purchase successful.")
+        println("Your new balance is ${accountBalance - price}")
+    } else {
+        println("Purchase failed.")
+        println("You need ${price - accountBalance} more.")
+    }
+}
