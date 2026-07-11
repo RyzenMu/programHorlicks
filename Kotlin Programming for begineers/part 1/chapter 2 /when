@@ -1,0 +1,7 @@
+when (menuOption) {
+        1 -> println("You ordered a Burger")
+        2 -> println("You ordered a Salad")
+        3 -> println("You ordered Soup")
+        else -> println("Invalid option")
+    }
+}
