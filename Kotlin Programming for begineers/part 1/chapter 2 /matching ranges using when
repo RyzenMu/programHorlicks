@@ -1,0 +1,7 @@
+val score = 85
+when (score) {
+    in 90..100 -> println("Excellent")
+    in 80..89 -> println("Good")
+    in 70..79 -> println("Passable")
+    else -> println("Fail")
+}
