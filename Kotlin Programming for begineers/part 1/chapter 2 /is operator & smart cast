@@ -1,0 +1,3 @@
+val something: Any = "Hello"
+val isText = something is String // This is true
+val isNumber = something is Int  // This is false
