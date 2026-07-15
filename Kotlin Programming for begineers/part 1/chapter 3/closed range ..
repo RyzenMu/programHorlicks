@@ -1,0 +1,2 @@
+val oneToTen = 1..10
+This variable oneToTen now represents the sequence: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
