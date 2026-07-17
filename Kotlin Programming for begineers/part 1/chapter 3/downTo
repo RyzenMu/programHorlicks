@@ -1,0 +1,2 @@
+val countdown = 10 downTo 1
+  This represents: 10, 9, 8, 7, 6, 5, 4, 3, 2, 1.
