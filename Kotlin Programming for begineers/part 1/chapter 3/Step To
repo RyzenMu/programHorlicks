@@ -1,0 +1,1 @@
+val evenNumbers = 0..10 step 2 This represents: 0, 2, 4, 6, 8, 10.
