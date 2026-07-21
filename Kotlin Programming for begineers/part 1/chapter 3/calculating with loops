@@ -1,0 +1,7 @@
+fun main() {
+    var total = 0
+     for (number in 1..100) {
+        total = total + number
+    }
+     println("The sum of 1 to 100 is: $total")
+}
