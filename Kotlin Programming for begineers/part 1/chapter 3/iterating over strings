@@ -1,0 +1,6 @@
+fun main() {
+    val word = "Kotlin"
+     for (letter in word) {
+        println(letter)
+    }
+}
