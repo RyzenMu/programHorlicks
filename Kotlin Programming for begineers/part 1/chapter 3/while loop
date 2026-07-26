@@ -1,3 +1,12 @@
 while (condition) {
     // Code to repeat
 }
+
+fun main() {
+    var fuelLevel = 5
+     while (fuelLevel > 0) {
+        println("Engine running. Fuel: $fuelLevel")
+        fuelLevel = fuelLevel - 1
+    }
+     println("Out of fuel. Engine stopping.")
+}
