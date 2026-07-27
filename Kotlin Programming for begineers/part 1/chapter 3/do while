@@ -1,0 +1,14 @@
+fun main() {
+    var attempts = 0
+    var isPasswordCorrect = false
+     do {
+        attempts = attempts + 1
+        println("Attempting to connect... (Try #$attempts)")
+         // Simulating a successful connection on the 3rd try
+        if (attempts == 3) {
+            isPasswordCorrect = true
+        }
+         } while (!isPasswordCorrect)
+     println("Connected successfully!")
+}
+   Output: Attempting to connect... (Try #1)
