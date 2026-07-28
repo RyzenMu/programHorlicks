@@ -1,0 +1,10 @@
+fun main() {
+    for (i in 1..100) {
+        if (i == 42) {
+            println("Found the answer: $i")
+            break // Stop the loop immediately!
+        }
+        println("Checking number $i...")
+    }
+    println("Search complete.")
+}
