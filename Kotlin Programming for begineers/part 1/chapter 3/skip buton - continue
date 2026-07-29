@@ -1,0 +1,10 @@
+fun main() {
+    for (i in 1..5) {
+        if (i % 2 == 0) {
+            // If the number is even, skip the rest of this block
+            continue 
+        }
+         println("Odd number: $i")
+    }
+}
+   Output: Odd number: 1 Odd number: 3 Odd number: 5
