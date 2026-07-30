@@ -1,0 +1,10 @@
+●        Parameter: The variable defined in the function declaration (e.g., age). ●        Argument: The actual data passed to the function (e.g., 25). fun main() {
+    // We call the function and store the result in a variable
+    val myYears = calculateYearsTo100(30)
+    println("I have $myYears years until I am 100.")
+     val friendYears = calculateYearsTo100(55)
+    println("My friend has $friendYears years left.")
+}
+ fun calculateYearsTo100(age: Int): Int {
+    return 100 - age
+}
