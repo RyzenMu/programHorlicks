@@ -1,0 +1,6 @@
+fun createUser(firstName: String, lastName: String, middleName: String) createUser("James", "Earl", "Jones") 
+createUser(
+    firstName = "James",
+    middleName = "Earl",
+    lastName = "Jones"
+)
