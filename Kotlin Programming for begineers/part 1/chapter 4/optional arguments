@@ -1,0 +1,9 @@
+fun greet(name: String, message: String = "Welcome") {
+    println("$message, $name!")
+}
+  Now, you have two ways to call this function: 1.      Provide both arguments:
+greet("Alice", "Good Morning") 
+// Output: Good Morning, Alice!
+  2.      Provide only the required argument:
+greet("Bob")
+// Output: Welcome, Bob!
