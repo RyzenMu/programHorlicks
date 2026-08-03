@@ -1,0 +1,6 @@
+fun printHello(): Unit {
+    println("Hello")
+}
+  If you do not specify a return type, Kotlin assumes it is Unit. // These two functions are identical
+fun doWork(): Unit { ... }
+fun doWork() { ... }
