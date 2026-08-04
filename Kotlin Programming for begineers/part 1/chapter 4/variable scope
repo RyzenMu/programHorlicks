@@ -1,0 +1,8 @@
+fun functionA() {
+    val secret = 42
+    println(secret)
+}
+ fun functionB() {
+    // Error! functionB cannot see 'secret'.
+    // println(secret) 
+}
