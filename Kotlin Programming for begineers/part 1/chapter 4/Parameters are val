@@ -1,0 +1,9 @@
+fun tryingToChange(number: Int) {
+    number = 5 // Error! Val cannot be reassigned.
+}
+
+fun correctWay(number: Int) {
+    var myNumber = number // Copy the input into a mutable variable
+    myNumber = 5
+    println(myNumber)
+}
