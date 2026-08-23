@@ -1,0 +1,9 @@
+fun main() {
+    val middleName: String? = null
+     // The Safe Call
+    val length: Int? = middleName?.length
+     println("The length is: $length")
+}
+   How it works: 1.      The computer looks at middleName. 2.      It asks: "Is this null?" 
+     3.      If it is null: It stops immediately. It does not try to get the length. Instead, the entire expression evaluates to null.
+     4.      If it is not null: It proceeds to access .length and returns the number.
