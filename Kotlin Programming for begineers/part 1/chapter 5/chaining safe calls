@@ -1,0 +1,10 @@
+// The Old/Painful Way (Concept code)
+if (user != null) {
+    if (user.address != null) {
+        if (user.address.city != null) {
+            print(user.address.city)
+        }
+    }
+}
+  In Kotlin, you can chain safe calls together: // The Kotlin Way
+println(user?.address?.city)
