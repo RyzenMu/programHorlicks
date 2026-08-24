@@ -1,0 +1,7 @@
+fun main() {
+    val inputName: String? = null
+      // Use inputName, OR use "Guest" if it is missing
+    val displayName = inputName ?: "Guest"
+     println("Welcome, $displayName")
+}
+   Output: Welcome, Guest
