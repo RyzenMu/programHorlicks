@@ -1,0 +1,6 @@
+fun main() {
+    val name: String? = "James"
+     // Force it to be treated as non-null
+    val length = name!!.length 
+     println(length)
+}
