@@ -1,0 +1,6 @@
+fun main() {
+    val middleName: String? = null
+     // Get the length safely. If it is null, default to 0.
+    val length = middleName?.length ?: 0
+     println("The name has $length letters.")
+}
