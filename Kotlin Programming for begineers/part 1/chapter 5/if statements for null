@@ -1,0 +1,10 @@
+fun main() {
+    val name: String? = "Peter"
+     if (name != null) {
+        // Inside this block, Kotlin knows 'name' cannot be null.
+        // It lets us access .length directly without ? or !!
+        println(name.length)
+    } else {
+        println("Name is missing")
+    }
+}
