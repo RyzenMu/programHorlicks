@@ -1,0 +1,11 @@
+
+val name: String? = "Peter"
+name?.let { safeName ->
+    // This code block ONLY runs if name is not null.
+    // 'safeName' is the non-nullable version of 'name'.
+    println("The name is $safeName")
+    println("Length is ${safeName.length}")
+}
+   Here is what happens: 1.      name?. performs a safe call. If name is null, nothing after it happens. The whole block is skipped. 
+2.      If name is NOT null, the let block is executed. 3.    
+Inside the block, we have access to the value. By default, it is named it, but we can rename it (like safeName) to be clearer.
