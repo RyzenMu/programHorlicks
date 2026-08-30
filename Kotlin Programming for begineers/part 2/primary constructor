@@ -1,0 +1,6 @@
+class Car(val brand: String, var color: String) {
+    var speed: Int = 0
+     fun drive() {
+        println("Driving the $color $brand")
+    }
+}
