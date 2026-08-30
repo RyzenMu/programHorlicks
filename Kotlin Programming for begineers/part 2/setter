@@ -1,0 +1,13 @@
+
+class Car {
+    var brand: String = "Unknown"
+     var speed: Int = 0
+        set(value) {
+            // The keyword 'field' refers to the actual storage memory
+            if (value >= 0) {
+                field = value
+            } else {
+                println("Error: Speed cannot be negative. Ignoring update.")
+            }
+        }
+}
