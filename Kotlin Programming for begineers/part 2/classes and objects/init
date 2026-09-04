@@ -1,0 +1,12 @@
+class User(val username: String, val age: Int) {
+     init {
+        println("New user created: $username")
+         if (age < 18) {
+            println("Warning: User is a minor.")
+        }
+    }
+}
+ fun main() {
+    val user1 = User("Alice", 25)
+    val user2 = User("Billy", 12)
+}
