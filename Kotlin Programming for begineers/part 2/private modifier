@@ -1,0 +1,16 @@
+class Car(val brand: String) {
+    private var engineTemp = 100
+     fun drive() {
+        engineTemp += 10
+        println("Driving... engine is heating up.")
+    }
+     fun checkStatus() {
+        // We can read the private variable here because we are inside the class
+        println("Temp: $engineTemp")
+    }
+}
+ fun main() {
+    val car = Car("Honda")
+    car.drive()
+     // car.engineTemp = 500 // Error! Cannot access private property.
+}
