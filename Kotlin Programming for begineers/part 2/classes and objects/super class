@@ -1,0 +1,9 @@
+
+open class Employee(val name: String, val id: Int) {
+     fun clockIn() {
+        println("$name (ID: $id) has clocked in.")
+    }
+     fun clockOut() {
+        println("$name (ID: $id) has clocked out.")
+    }
+}
