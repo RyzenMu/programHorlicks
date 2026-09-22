@@ -1,0 +1,6 @@
+// Syntax: class Child : Parent()
+class Developer(name: String, id: Int, val language: String) : Employee(name, id) {
+fun writeCode() {
+        println("$name is writing code in $language.")
+    }
+}
