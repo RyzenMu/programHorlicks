@@ -1,0 +1,11 @@
+fun main() {
+    val dev = Developer("Alice", 101, "Kotlin")
+     // Accessing a property from the Child class
+    println("Language: ${dev.language}")
+     // Accessing properties from the Parent class
+    println("Name: ${dev.name}")
+     // Calling a function from the Child class
+    dev.writeCode()
+     // Calling a function from the Parent class
+    dev.clockIn()
+}
