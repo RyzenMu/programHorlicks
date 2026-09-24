@@ -1,0 +1,23 @@
+class Developer(name: String) : Employee(name) {
+    // We replace the generic work with specific work
+    override fun work() {
+        println("$name is writing code.")
+    }
+}
+ class Manager(name: String) : Employee(name) {
+    // We replace the generic work with specific work
+    override fun work() {
+        println("$name is conducting a meeting.")
+    }
+}
+   Let's test it: fun main() {
+    val emp = Employee("Generic Guy")
+    val dev = Developer("Alice")
+    val mgr = Manager("Bob")
+    emp.work()
+    dev.work()
+    mgr.work()
+}
+   Output: Generic Guy is doing general office tasks.
+Alice is writing code.
+Bob is conducting a meeting.
