@@ -1,0 +1,10 @@
+class Manager(name: String) : Employee(name) {
+    override fun work() {
+        // First, do what the parent does
+        super.work()
+         // Then, do the manager specific stuff
+        println("$name is conducting a meeting.")
+    }
+}
+   Now, calling mgr.work() produces: Bob is doing general office tasks.
+Bob is conducting a meeting.
