@@ -1,0 +1,25 @@
+fun main() {
+    // Create a list holding different types of employees
+    // The list is of type List<Employee>
+    val officeStaff: List<Employee> = listOf(
+        Developer("Alice"),
+        Manager("Bob"),
+        Developer("Charlie"),
+        Employee("New Hire")
+    )
+     // We can loop through them all together
+    for (person in officeStaff) {
+        // The "Aha!" Moment:
+        // We call .work() on the generic 'person' variable.
+        // But the computer runs the SPECIFIC version for that object.
+        person.work()
+        println("---")
+    }
+}
+   Output: Alice is writing code.
+---
+Bob is conducting a meeting.
+---
+Charlie is writing code.
+---
+New Hire is doing general office tasks.
