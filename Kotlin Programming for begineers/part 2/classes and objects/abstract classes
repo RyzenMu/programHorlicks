@@ -1,0 +1,7 @@
+abstract class Employee(val name: String) {
+     fun clockIn() {
+        println("$name clocked in.")
+    }
+     // Abstract Function: A function with NO body.
+    // It says: "Subclasses MUST implement this."
+    abstract fun work()
