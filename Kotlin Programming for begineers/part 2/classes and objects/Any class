@@ -1,0 +1,22 @@
+ Any is the root of the Kotlin class hierarchy.
+It is similar to Object in Java.
+Because everything is a child of Any, 
+every object possesses three specific functions defined 
+in Any: 
+1.      equals(): To check if two objects are the same.
+2.      hashCode(): To give the object a numerical ID.
+3.      toString(): To convert the object into text. This is why you can call toString() on absolutely anything in Kotlin,
+even if you didn't write that function yourself.
+You inherited it! 
+You can override these standard functions too. 
+
+class Car(val brand: String) {
+    override fun toString(): String {
+        return "A beautiful $brand car"
+    }
+}
+ fun main() {
+    val c = Car("Toyota")
+    println(c) // Automatically calls toString()
+}
+   Output: A beautiful Toyota car
