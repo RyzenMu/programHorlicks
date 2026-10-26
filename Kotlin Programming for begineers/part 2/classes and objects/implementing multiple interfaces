@@ -1,0 +1,17 @@
+interface Swimmable {
+    fun swim()
+}
+ interface Flyable {
+    fun fly()
+}
+ interface Huntable {
+    fun hunt()
+}
+   Now, let us create a Duck. A duck is a biological animal (Inheritance), but it has a specific set of skills (Interfaces). open class Animal(val name: String)
+ class Duck(name: String) : Animal(name), Swimmable, Flyable {
+     override fun swim() {
+        println("$name is paddling in the water.")
+    }
+     override fun fly() {
+        println("$name is flying south for the winter.")
+    }
