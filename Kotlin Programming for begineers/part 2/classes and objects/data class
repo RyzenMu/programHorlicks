@@ -1,0 +1,12 @@
+To fix this, we simply add the word data before class. 
+  
+  data class DataUser(val name: String, val age: Int)
+ fun main() {
+    val user1 = DataUser("Alice", 25)
+    val user2 = DataUser("Alice", 25)
+     // Benefit 1: Beautiful Printing
+    println(user1) 
+    // Output: DataUser(name=Alice, age=25)
+     // Benefit 2: Correct Equality
+    println(user1 == user2) 
+    // Output: true
