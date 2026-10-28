@@ -1,0 +1,8 @@
+The copy() function does this for you. fun main() {
+    val jack = DataUser("Jack", 29)
+     // Create a generic copy (exact duplicate)
+    val twinJack = jack.copy()
+     // Create a copy, but change the age
+    val olderJack = jack.copy(age = 30)
+     println(jack)      // DataUser(name=Jack, age=29)
+    println(olderJack) // DataUser(name=Jack, age=30)
