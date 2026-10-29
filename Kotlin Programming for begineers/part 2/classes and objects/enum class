@@ -1,0 +1,7 @@
+enum class Direction {
+    NORTH, SOUTH, EAST, WEST
+}
+  Now, we can use these values with total safety. fun navigate(dir: Direction) {
+    if (dir == Direction.NORTH) {
+        println("Heading towards the cold.")
+    }
