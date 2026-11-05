@@ -1,0 +1,14 @@
+fun main() {
+    // Creating a read-only list
+    val groceries = listOf("Milk", "Eggs", "Bread")
+     // Accessing items by Index (starting at 0)
+    println("First item: ${groceries[0]}")
+    println("Second item: ${groceries[1]}")
+     // Getting the size
+    println("I need to buy ${groceries.size} items.")
+     // Looping through the list
+    for (item in groceries) {
+        println(" - $item")
+    }
+     // This would cause an Error!
+    // groceries.add("Apples")
