@@ -1,0 +1,12 @@
+fun main() {
+    // Creating a mutable list
+    val shoppingCart = mutableListOf("Laptop", "Mouse")
+     // Adding items
+    shoppingCart.add("Keyboard")
+    println("Cart: $shoppingCart")
+     // Removing items
+    shoppingCart.remove("Mouse")
+    println("Cart after removal: $shoppingCart")
+     // Changing an item at a specific position
+    shoppingCart[0] = "Gaming Laptop"
+    println("Upgraded cart: $shoppingCart")
