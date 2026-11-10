@@ -1,0 +1,9 @@
+fun main() {
+    // We try to add duplicate numbers
+    val numbers = setOf(1, 2, 3, 1, 2, 4)
+     println(numbers)
+    println("Size: ${numbers.size}")
+
+    Output: [1, 2, 3, 4]
+Size:4
+// set isa unique value
